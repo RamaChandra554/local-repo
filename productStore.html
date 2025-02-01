@@ -149,6 +149,7 @@
             }
         }
     </style>
+    
 </head>
 
 <body>
@@ -236,6 +237,90 @@
 
 </html>
 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark transparent-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <span style="color: #AA7E3E;">Lux</span><span style="color: #795A19;">ora</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-text" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-text" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-text" href="#">Contact us</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-text" href="cart.html"><i class="fa fa-shopping-cart"
+                                style="font-size:38px;color:rgb(255, 255, 255)"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-3">
+        <h3>Offcanvas Sidebar</h3>
+        <button class="btn btn-outline-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+            Open Offcanvas Sidebar
+        </button>
+    </div>
+
+    <div class="main-content">
+        <h1 class="text-center mb-4" style="padding-top: 90px; color: #795A19;">Product List</h1>
+
+        <!-- Filters -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <select id="category-filter" class="form-select">
+                        <option value="">Select Category</option>
+                        <option value="Men">Men</option>
+                        <option value="Women">Women</option>
+                        <option value="Children">Children</option>
+                    </select>
+                </div>
+
+                <div class="col-md-3">
+                    <select id="brand-filter" class="form-select">
+                        <option value="">Select Brand</option>
+                        <option value="IKON FASHION">IKON FASHION</option>
+                        <option value="LEVI'S">LEVI'S</option>
+                        <option value="SAREE HOUSE">SAREE HOUSE</option>
+                        <option value="FASHIONISTA">FASHIONISTA</option>
+                        <!-- Add more brands as needed -->
+                    </select>
+                </div>
+
+                <div class="col-md-3">
+                    <label for="price-range">Price Range: ₹0 - ₹18,000</label>
+                    <input type="range" id="price-range" min="0" max="18000" step="1000" value="0" class="form-range">
+                    <span id="price-value">₹0</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Products -->
+        <div class="row" id="product-list"></div>
+
+        <!-- Load More Button -->
+        <div class="text-center">
+            <button id="load-more" class="btn btn-primary" style="display: none;">Load More</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 <!-- <script>
         document.addEventListener('DOMContentLoaded', function () {
             const priceFilter = document.getElementById('price-filter');
@@ -312,3 +397,4 @@
             console.log(products);
         });
     </script> -->
+
