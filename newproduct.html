@@ -16,7 +16,7 @@
     }
 
     .navbar {
-        position: fixed;
+        position: sticky;
         font-family: monospace;
         top: 0;
         left: 0;
@@ -147,7 +147,7 @@
     <nav class="navbar navbar-expand-md navbar-dark transparent-navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="newproductStore.html">
-                <span style="color: #AA7E3E;">Lux</span><span style="color: #795A19;">ora</span>
+                <span style="color: #AA7E3E;">Urbon</span><span style="color: #795A19;">Nest</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -218,7 +218,7 @@
                                     <p><strong>Rating:</strong> ${product.rating} stars (${product.reviewCount} reviews)</p>
                                     <p><strong>Warranty:</strong> ${product.warranty}</p>
                                     <p><strong>In Stock:</strong> ${product.inStock} </p>
-                                    <button class="btn btn-primary" id="add-to-cart">Add to Cart</button>
+                                    <button class="btn btn-success" id="add-to-cart">Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -245,7 +245,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">${similarProduct.title}</h5>
                                     <p><b>Price:</b> ₹${similarProduct.discountedPrice}</p>
-                                    <a href="newproduct.html?id=${similarProduct.id}" class="btn btn-info">View Details</a>
+                                    <a href="newproduct.html?id=${similarProduct.id}" class="btn btn-success">Full Details</a>
                                 </div>
                             </div>
                         </div>
