@@ -181,7 +181,7 @@
                 <h1 style="color: #795A19;">Similar products</h1>
             </center>
             <h3>Products from the Same Category</h3>
-            <div class="row" id="category-products-list"></div>
+            <div class="row" id="similar-products"></div>
         </div>
     </div>
 
@@ -233,6 +233,24 @@
                     cart.push(product);
                     localStorage.setItem('cart', JSON.stringify(cart));
                     alert(`${product.title} has been added to your cart!`);
+                });
+                // Display similar products based on the mainCategory
+                const similarProducts = products.filter(p => p.mainCategory === product.mainCategory && p.id !== productId);
+                const similarProductsContainer = document.getElementById('similar-products');
+                similarProducts.forEach(similarProduct => {
+                    const similarProductHTML = `
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="card">
+                                <img src="${similarProduct.url}" class="card-img-top" alt="${similarProduct.title}">
+                                <div class="card-body">
+                                    <h5 class="card-title">${similarProduct.title}</h5>
+                                    <p><b>Price:</b> ₹${similarProduct.discountedPrice}</p>
+                                    <a href="newproduct.html?id=${similarProduct.id}" class="btn btn-info">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    similarProductsContainer.innerHTML += similarProductHTML;
                 });
             } else {
                 alert('Product not found.');
