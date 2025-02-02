@@ -741,8 +741,7 @@ let products = [
         colors: ['Maroon'],
         rating: 4.3,
         reviewCount: 45
-    }
-    ,
+    },
 
      // Sarees - Subcategory (ID from 41 to 60)
      {
@@ -1107,24 +1106,7 @@ let products = [
     },
     
      // Dresses - Subcategory (ID from 61 to 80)
-     {
-        id: 44,
-        mainCategory: 'Women',
-        subCategory: 'Sarees',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20241117/JADt/6739ca2cc148fa1b30ceda94/-473Wx593H-700761687-teal-MODEL.jpg',
-        title: 'Linen Saree with Floral Print',
-        brand: 'LUXE WEAVES',
-        price: 2200,
-        discount: 12,
-        warranty: '6 months',
-        actualPrice: 2500,
-        discountedPrice: 2200,
-        inStock: 25,
-        material: 'Linen',
-        colors: ['Teal'],
-        rating: 4.2,
-        reviewCount: 65
-    },
+     
     {
         id: 61,
         mainCategory: 'Women',

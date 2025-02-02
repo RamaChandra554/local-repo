@@ -65,13 +65,6 @@
                     <li class="nav-item">
                         <a class="nav-link nav-text" href="#">Contact us</a>
                     </li>
-                    <li>
-                        <a class="nav-link nav-text" href="newproductStore.html"><i class="fa fa-shopping-cart"
-                                style="font-size:38px;color:rgb(255, 255, 255)"></i></a>
-                    </li>
-                    <li>
-
-                    </li>
                 </ul>
             </div>
         </div>
@@ -81,7 +74,8 @@
     <div class="container my-5 ">
         <h1 style="color: white;">Your Cart</h1>
         <div id="cart-items"></div>
-        <hr>
+        <a href="newproductStore.html" ><button class="btn btn-success">Continue Shoping</button></a>
+        <hr style="color: wheat;"> 
         <div class="d-flex justify-content-between">
             <h5 style="color: wheat;">Total: ₹<span id="cart-total">0</span></h5>
             <button class="btn btn-success" id="checkout-button">Checkout</button>
@@ -103,7 +97,7 @@
                         <div class="card mb-3" id="cart-item-${item.id}">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="${item.url}" class="img-fluid" alt="${item.title}">
+                                    <img src="${item.url}" class="img-fluid" style="height:180px" alt="${item.title}">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">

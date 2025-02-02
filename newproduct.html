@@ -213,7 +213,6 @@
                                     <p><strong>Price:</strong> ₹${product.discountedPrice} <span style="text-decoration:line-through; color: #999;">₹${product.actualPrice}</span></p>
                                     <p><strong>Discount:</strong> ${product.discount}% off</p>
                                     <p><strong>Material:</strong> ${product.material}</p>
-                                    <p><strong>Available Sizes:</strong> ${product.size.join(', ')}</p>
                                     <p><strong>Colors:</strong> ${product.colors.join(', ')}</p>
                                     <p><strong>Rating:</strong> ${product.rating} stars (${product.reviewCount} reviews)</p>
                                     <p><strong>Warranty:</strong> ${product.warranty}</p>
@@ -239,12 +238,12 @@
                 const similarProductsContainer = document.getElementById('similar-products');
                 similarProducts.forEach(similarProduct => {
                     const similarProductHTML = `
-                        <div class="col-6 col-md-3 mb-3">
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                             <div class="card">
                                 <img src="${similarProduct.url}" class="card-img-top" alt="${similarProduct.title}">
                                 <div class="card-body">
-                                    <h5 class="card-title">${similarProduct.title}</h5>
-                                    <p><b>Price:</b> ₹${similarProduct.discountedPrice}</p>
+                                    <p class="title"><b>${similarProduct.title}</b></p>
+                                    <p><b>₹${similarProduct.discountedPrice}</b> / <span style="text-decoration:line-through;color:#ffffff8f"> ₹${similarProduct.actualPrice}</span> <span><b> ${similarProduct.discount}%</b></span></p>
                                     <a href="newproduct.html?id=${similarProduct.id}" class="btn btn-success">Full Details</a>
                                 </div>
                             </div>
