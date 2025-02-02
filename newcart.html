@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="newproductStore.html">Luxora</a>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h1>Your Cart</h1>
+        <div id="cart-items"></div>
+        <hr>
+        <div class="d-flex justify-content-between">
+            <h5>Total: ₹<span id="cart-total">0</span></h5>
+            <button class="btn btn-success" id="checkout-button">Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Retrieve cart items from localStorage
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const cartItemsContainer = document.getElementById('cart-items');
+            const cartTotal = document.getElementById('cart-total');
+            let total = 0;
+
+            if (cart.length > 0) {
+                cart.forEach((item, index) => {
+                    const itemHTML = `
+                        <div class="card mb-3" id="cart-item-${item.id}">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="${item.url}" class="img-fluid" alt="${item.title}">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">${item.title}</h5>
+                                        <p><b>Price:</b> ₹${item.discountedPrice}</p>
+                                        <p><b>Quantity:</b> 1</p>
+                                        <button class="btn btn-danger remove-item" data-id="${item.id}">Remove</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    cartItemsContainer.innerHTML += itemHTML;
+                    total += item.discountedPrice;
+                });
+                cartTotal.textContent = total;
+            } else {
+                cartItemsContainer.innerHTML = '<p>Your cart is empty.</p>';
+            }
+
+            // Add event listener to remove items from cart
+            document.querySelectorAll('.remove-item').forEach(button => {
+                button.addEventListener('click', function () {
+                    const productId = parseInt(this.getAttribute('data-id'));
+                    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+                    cart = cart.filter(item => item.id !== productId);
+                    localStorage.setItem('cart', JSON.stringify(cart));
+                    document.getElementById(`cart-item-${productId}`).remove();
+                    total -= cart.find(item => item.id === productId).discountedPrice;
+                    cartTotal.textContent = total;
+                });
+            });
+
+            // Checkout functionality
+            document.getElementById('checkout-button').addEventListener('click', function () {
+                // Clear cart and show success message
+                localStorage.removeItem('cart');
+                alert('Your order has been successfully placed! You can check your registered email for remaining details.');
+                window.location.href = 'newproductStore.html';  // Redirect to homepage or thank you page
+            });
+        });
+    </script>
+</body>
+</html>

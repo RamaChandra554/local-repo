@@ -214,7 +214,7 @@ body {
 
 #content {
   height: auto;
-  width: ;
+  /* width: auto ; */
   padding: 20px;
   background-color: #191265;
   color: #232F3E;

@@ -13,7 +13,11 @@ let products = [
         actualPrice: 332,
         discountedPrice: 299,
         size: ['M', 'L', 'XL'],
-        inStock: 20
+        inStock: 20,
+        material: 'Cotton',
+        colors: ['Brown'],
+        rating: 4.2,
+        reviewCount: 250
     },
     {
         id: 2,
@@ -28,7 +32,11 @@ let products = [
         actualPrice: 650,
         discountedPrice: 560,
         size: ['S', 'M', 'L'],
-        inStock: 0
+        inStock: 0,
+        material: 'Cotton Blend',
+        colors: ['Coral'],
+        rating: 4.5,
+        reviewCount: 120
     },
     {
         id: 3,
@@ -43,7 +51,11 @@ let products = [
         actualPrice: 1470,
         discountedPrice: 1400,
         size: ['L', 'XL'],
-        inStock: 10
+        inStock: 10,
+        material: 'Cotton',
+        colors: ['Blue Stripes'],
+        rating: 4.0,
+        reviewCount: 180
     },
     {
         id: 4,
@@ -58,7 +70,11 @@ let products = [
         actualPrice: 2327,
         discountedPrice: 1862,
         size: ['M', 'L', 'XL'],
-        inStock: 50
+        inStock: 50,
+        material: 'Cotton',
+        colors: ['Multi-Color'],
+        rating: 4.3,
+        reviewCount: 210
     },
     {
         id: 5,
@@ -73,7 +89,11 @@ let products = [
         actualPrice: 1332,
         discountedPrice: 999,
         size: ['M', 'L'],
-        inStock: 0
+        inStock: 0,
+        material: 'Cotton',
+        colors: ['White'],
+        rating: 4.1,
+        reviewCount: 95
     },
     {
         id: 6,
@@ -88,7 +108,11 @@ let products = [
         actualPrice: 4999,
         discountedPrice: 4499,
         size: ['S', 'M', 'L', 'XL'],
-        inStock: 5
+        inStock: 5,
+        material: 'Cotton',
+        colors: ['Green'],
+        rating: 4.7,
+        reviewCount: 180
     },
     {
         id: 7,
@@ -103,7 +127,11 @@ let products = [
         actualPrice: 1272,
         discountedPrice: 1123,
         size: ['M', 'L'],
-        inStock: 0
+        inStock: 0,
+        material: 'Cotton Blend',
+        colors: ['Maroon'],
+        rating: 4.0,
+        reviewCount: 145
     },
     {
         id: 8,
@@ -118,7 +146,11 @@ let products = [
         actualPrice: 578,
         discountedPrice: 549,
         size: ['L', 'XL'],
-        inStock: 15
+        inStock: 15,
+        material: 'Cotton',
+        colors: ['Aqua'],
+        rating: 3.9,
+        reviewCount: 200
     },
     {
         id: 9,
@@ -133,7 +165,11 @@ let products = [
         actualPrice: 479,
         discountedPrice: 479,
         size: ['S', 'M', 'L'],
-        inStock: 30
+        inStock: 30,
+        material: 'Polyester Blend',
+        colors: ['Grey'],
+        rating: 4.1,
+        reviewCount: 160
     },
     {
         id: 10,
@@ -148,7 +184,11 @@ let products = [
         actualPrice: 1400,
         discountedPrice: 1400,
         size: ['M', 'L'],
-        inStock: 8
+        inStock: 8,
+        material: 'Cotton',
+        colors: ['Blue'],
+        rating: 4.3,
+        reviewCount: 110
     },
     {
         id: 11,
@@ -163,7 +203,11 @@ let products = [
         actualPrice: 394,
         discountedPrice: 315,
         size: ['M', 'L', 'XL'],
-        inStock: 20
+        inStock: 20,
+        material: 'Cotton',
+        colors: ['Navy'],
+        rating: 4.0,
+        reviewCount: 220
     },
     {
         id: 12,
@@ -172,13 +216,19 @@ let products = [
         url: 'https://assets.ajio.com/medias/sys_master/root/20230621/tQsK/64928a82d55b7d0c639079cc/-473Wx593H-464175602-grey-MODEL.jpg',
         title: 'Men Knit Classic Shirt',
         brand: 'ANDAMEN',
-        price: 3000,
-        discount: 15,
-        warranty: '2 years',
-        actualPrice: 3000,
-        size: ['M', 'L', 'XL'],
-        inStock: false
+        price: 300,
+        discount: 10,
+        warranty: '1 year',
+        actualPrice: 333,
+        discountedPrice: 300,
+        size: ['L', 'XL'],
+        inStock: 15,
+        material: 'Cotton Blend',
+        colors: ['Grey'],
+        rating: 4.2,
+        reviewCount: 130
     },
+   
     {
         id: 13,
         mainCategory: 'Men',
@@ -192,7 +242,11 @@ let products = [
         actualPrice: 525,
         discountedPrice: 500,
         size: ['M', 'L'],
-        inStock: 10
+        inStock: 10,
+        material: 'Cotton',
+        colors: ['White', 'Blue'],
+        rating: 4.3,
+        reviewCount: 150
     },
     {
         id: 14,
@@ -207,7 +261,11 @@ let products = [
         actualPrice: 705,
         discountedPrice: 599,
         size: ['M', 'L', 'XL'],
-        inStock: 18
+        inStock: 18,
+        material: 'Polyester Blend',
+        colors: ['Grey', 'Black'],
+        rating: 4.2,
+        reviewCount: 180
     },
     {
         id: 15,
@@ -222,7 +280,11 @@ let products = [
         actualPrice: 1111,
         discountedPrice: 1000,
         size: ['M', 'L'],
-        inStock: 50
+        inStock: 50,
+        material: 'Cotton',
+        colors: ['Multicolor'],
+        rating: 4.5,
+        reviewCount: 200
     },
     {
         id: 16,
@@ -237,7 +299,11 @@ let products = [
         actualPrice: 1444,
         discountedPrice: 1300,
         size: ['M', 'L'],
-        inStock: 5
+        inStock: 5,
+        material: 'Oxford Cotton',
+        colors: ['Blue Check', 'Red Check'],
+        rating: 4.6,
+        reviewCount: 220
     },
     {
         id: 17,
@@ -252,7 +318,11 @@ let products = [
         actualPrice: 2000,
         discountedPrice: 2000,
         size: ['S', 'M'],
-        inStock: 20
+        inStock: 20,
+        material: 'Poplin Cotton',
+        colors: ['Navy'],
+        rating: 4.4,
+        reviewCount: 350
     },
     {
         id: 18,
@@ -267,10 +337,12 @@ let products = [
         actualPrice: 1890,
         discountedPrice: 1800,
         size: ['L', 'XL'],
-        inStock: 15
+        inStock: 15,
+        material: 'Cotton Blend',
+        colors: ['Green', 'White'],
+        rating: 4.2,
+        reviewCount: 130
     },
-
-
     {
         id: 21,
         mainCategory: 'Men',
@@ -284,7 +356,11 @@ let products = [
         actualPrice: 1874,
         discountedPrice: 1499,
         size: ['30', '32', '34'],
-        inStock: 25
+        inStock: 25,
+        material: 'Cotton',
+        colors: ['Black'],
+        rating: 4.5,
+        reviewCount: 180
     },
     {
         id: 22,
@@ -299,7 +375,11 @@ let products = [
         actualPrice: 2110,
         discountedPrice: 1799,
         size: ['28', '30', '32', '34'],
-        inStock: 40
+        inStock: 40,
+        material: 'Chino',
+        colors: ['Blue'],
+        rating: 4.4,
+        reviewCount: 210
     },
     {
         id: 23,
@@ -314,7 +394,11 @@ let products = [
         actualPrice: 2555,
         discountedPrice: 2299,
         size: ['30', '32', '34'],
-        inStock: 15
+        inStock: 15,
+        material: 'Polyester',
+        colors: ['Charcoal'],
+        rating: 4.5,
+        reviewCount: 160
     },
     {
         id: 24,
@@ -329,7 +413,11 @@ let products = [
         actualPrice: 1955,
         discountedPrice: 1599,
         size: ['30', '32', '34'],
-        inStock: 30
+        inStock: 30,
+        material: 'Cotton Blend',
+        colors: ['Brown'],
+        rating: 4.3,
+        reviewCount: 145
     },
     {
         id: 25,
@@ -344,7 +432,11 @@ let products = [
         actualPrice: 1444,
         discountedPrice: 1299,
         size: ['30', '32', '34'],
-        inStock: 50
+        inStock: 50,
+        material: 'Stretch Fabric',
+        colors: ['Black'],
+        rating: 4.1,
+        reviewCount: 210
     },
     {
         id: 26,
@@ -359,7 +451,30 @@ let products = [
         actualPrice: 2665,
         discountedPrice: 1999,
         size: ['30', '32', '34', '36'],
-        inStock: 10
+        inStock: 10,
+        material: 'Wool Blend',
+        colors: ['Grey'],
+        rating: 4.6,
+        reviewCount: 180
+    },
+    {
+        id: 26,
+        mainCategory: 'Men',
+        subCategory: 'Pants',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20240229/2P8Z/65e08c9f16fd2c6e6a2daa80/-473Wx593H-410458041-40-MODEL.jpg',
+        title: 'Classic Fit Formal Pants',
+        brand: 'ZARA',
+        price: 1999,
+        discount: 25,
+        warranty: '2 years',
+        actualPrice: 2665,
+        discountedPrice: 1999,
+        size: ['30', '32', '34', '36'],
+        inStock: 10,
+        material: 'Polyester',
+        colors: ['Black', 'Navy Blue'],
+        rating: 4.3,
+        reviewCount: 50
     },
     {
         id: 27,
@@ -374,7 +489,11 @@ let products = [
         actualPrice: 1999,
         discountedPrice: 1799,
         size: ['30', '32', '34'],
-        inStock: 20
+        inStock: 20,
+        material: 'Linen',
+        colors: ['Light Blue', 'Dark Blue'],
+        rating: 4.5,
+        reviewCount: 150
     },
     {
         id: 28,
@@ -389,7 +508,11 @@ let products = [
         actualPrice: 2620,
         discountedPrice: 2499,
         size: ['30', '32', '34'],
-        inStock: 15
+        inStock: 15,
+        material: 'Wool',
+        colors: ['Black'],
+        rating: 4.2,
+        reviewCount: 70
     },
     {
         id: 29,
@@ -404,7 +527,11 @@ let products = [
         actualPrice: 2249,
         discountedPrice: 1799,
         size: ['30', '32', '34'],
-        inStock: 35
+        inStock: 35,
+        material: 'Cotton',
+        colors: ['Beige'],
+        rating: 4.0,
+        reviewCount: 120
     },
     {
         id: 30,
@@ -419,7 +546,11 @@ let products = [
         actualPrice: 2272,
         discountedPrice: 1999,
         size: ['30', '32', '34'],
-        inStock: 18
+        inStock: 18,
+        material: 'Polyester',
+        colors: ['Black'],
+        rating: 4.1,
+        reviewCount: 80
     },
     {
         id: 31,
@@ -434,7 +565,11 @@ let products = [
         actualPrice: 1872,
         discountedPrice: 1599,
         size: ['30', '32', '34'],
-        inStock: 22
+        inStock: 22,
+        material: 'Cotton',
+        colors: ['Olive'],
+        rating: 4.4,
+        reviewCount: 95
     },
     {
         id: 32,
@@ -449,7 +584,11 @@ let products = [
         actualPrice: 1999,
         discountedPrice: 1799,
         size: ['30', '32', '34'],
-        inStock: 40
+        inStock: 40,
+        material: 'Cotton',
+        colors: ['Khaki'],
+        rating: 4.3,
+        reviewCount: 65
     },
     {
         id: 33,
@@ -464,7 +603,11 @@ let products = [
         actualPrice: 1832,
         discountedPrice: 1499,
         size: ['30', '32', '34'],
-        inStock: 50
+        inStock: 50,
+        material: 'Cotton',
+        colors: ['Grey', 'Black'],
+        rating: 4.6,
+        reviewCount: 200
     },
     {
         id: 34,
@@ -479,7 +622,11 @@ let products = [
         actualPrice: 1899,
         discountedPrice: 1799,
         size: ['30', '32', '34'],
-        inStock: 25
+        inStock: 25,
+        material: 'Denim',
+        colors: ['Blue'],
+        rating: 4.2,
+        reviewCount: 75
     },
     {
         id: 35,
@@ -494,7 +641,11 @@ let products = [
         actualPrice: 1534,
         discountedPrice: 1299,
         size: ['30', '32', '34'],
-        inStock: 12
+        inStock: 12,
+        material: 'Cotton',
+        colors: ['Blue'],
+        rating: 4.0,
+        reviewCount: 40
     },
     {
         id: 36,
@@ -509,7 +660,11 @@ let products = [
         actualPrice: 3249,
         discountedPrice: 2599,
         size: ['30', '32', '34'],
-        inStock: 18
+        inStock: 18,
+        material: 'Linen',
+        colors: ['Beige'],
+        rating: 4.4,
+        reviewCount: 180
     },
     {
         id: 37,
@@ -524,7 +679,11 @@ let products = [
         actualPrice: 1999,
         discountedPrice: 1699,
         size: ['30', '32', '34'],
-        inStock: 30
+        inStock: 30,
+        material: 'Cotton',
+        colors: ['Dark Blue'],
+        rating: 4.1,
+        reviewCount: 60
     },
     {
         id: 38,
@@ -539,7 +698,11 @@ let products = [
         actualPrice: 2620,
         discountedPrice: 2499,
         size: ['30', '32', '34'],
-        inStock: 15
+        inStock: 15,
+        material: 'Polyester',
+        colors: ['Black'],
+        rating: 4.2,
+        reviewCount: 50
     },
     {
         id: 39,
@@ -554,7 +717,11 @@ let products = [
         actualPrice: 2100,
         discountedPrice: 1899,
         size: ['30', '32', '34'],
-        inStock: 12
+        inStock: 12,
+        material: 'Cotton',
+        colors: ['Khaki'],
+        rating: 4.0,
+        reviewCount: 30
     },
     {
         id: 40,
@@ -569,8 +736,13 @@ let products = [
         actualPrice: 1999,
         discountedPrice: 1699,
         size: ['30', '32', '34'],
-        inStock: 25
-    },
+        inStock: 25,
+        material: 'Cotton',
+        colors: ['Maroon'],
+        rating: 4.3,
+        reviewCount: 45
+    }
+    ,
 
      // Sarees - Subcategory (ID from 41 to 60)
      {
@@ -585,7 +757,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 4117,
         discountedPrice: 3500,
-        inStock: 10
+        inStock: 10,
+        material: 'Silk',
+        colors: ['Brown'],
+        rating: 4.2,
+        reviewCount: 25
     },
     {
         id: 42,
@@ -599,7 +775,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 2777,
         discountedPrice: 2500,
-        inStock: 20
+        inStock: 20,
+        material: 'Cotton Blend',
+        colors: ['Multi'],
+        rating: 4.3,
+        reviewCount: 40
     },
     {
         id: 43,
@@ -613,7 +793,11 @@ let products = [
         warranty: '1 year',
         actualPrice: 5625,
         discountedPrice: 4500,
-        inStock: 15
+        inStock: 15,
+        material: 'Silk',
+        colors: ['Black'],
+        rating: 4.6,
+        reviewCount: 100
     },
     {
         id: 44,
@@ -627,7 +811,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 2500,
         discountedPrice: 2200,
-        inStock: 25
+        inStock: 25,
+        material: 'Linen',
+        colors: ['Teal'],
+        rating: 4.2,
+        reviewCount: 65
     },
     {
         id: 45,
@@ -641,7 +829,11 @@ let products = [
         warranty: '1 year',
         actualPrice: 3333,
         discountedPrice: 3000,
-        inStock: 18
+        inStock: 18,
+        material: 'Georgette',
+        colors: ['Blue'],
+        rating: 4.4,
+        reviewCount: 80
     },
     {
         id: 46,
@@ -655,7 +847,11 @@ let products = [
         warranty: '1 year',
         actualPrice: 4706,
         discountedPrice: 4000,
-        inStock: 12
+        inStock: 12,
+        material: 'Silk',
+        colors: ['Green'],
+        rating: 4.5,
+        reviewCount: 90
     },
     {
         id: 47,
@@ -669,7 +865,11 @@ let products = [
         warranty: '1 year',
         actualPrice: 5555,
         discountedPrice: 5000,
-        inStock: 8
+        inStock: 8,
+        material: 'Brocade Silk',
+        colors: ['Indigo'],
+        rating: 4.7,
+        reviewCount: 70
     },
     {
         id: 48,
@@ -683,7 +883,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 3415,
         discountedPrice: 2800,
-        inStock: 22
+        inStock: 22,
+        material: 'Chiffon',
+        colors: ['Teal'],
+        rating: 4.3,
+        reviewCount: 60
     },
     {
         id: 49,
@@ -697,7 +901,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 2045,
         discountedPrice: 1800,
-        inStock: 30
+        inStock: 30,
+        material: 'Cotton',
+        colors: ['Pink'],
+        rating: 4.1,
+        reviewCount: 35
     },
     {
         id: 50,
@@ -711,7 +919,11 @@ let products = [
         warranty: '1 year',
         actualPrice: 7500,
         discountedPrice: 6000,
-        inStock: 5
+        inStock: 5,
+        material: 'Kanjivaram Silk',
+        colors: ['Red'],
+        rating: 4.8,
+        reviewCount: 110
     },
     {
         id: 51,
@@ -725,7 +937,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 4470,
         discountedPrice: 3800,
-        inStock: 13
+        inStock: 13,
+        material: 'Vichitra Silk',
+        colors: ['Red'],
+        rating: 4.4,
+        reviewCount: 50
     },
     {
         id: 52,
@@ -739,7 +955,11 @@ let products = [
         warranty: '1 year',
         actualPrice: 6097,
         discountedPrice: 5000,
-        inStock: 7
+        inStock: 7,
+        material: 'Satin',
+        colors: ['Peach'],
+        rating: 4.6,
+        reviewCount: 85
     },
     {
         id: 53,
@@ -753,7 +973,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 3555,
         discountedPrice: 3200,
-        inStock: 16
+        inStock: 16,
+        material: 'Chanderi Silk',
+        colors: ['Peach'],
+        rating: 4.3,
+        reviewCount: 40
     },
     {
         id: 54,
@@ -767,7 +991,11 @@ let products = [
         warranty: '1 year',
         actualPrice: 5294,
         discountedPrice: 4500,
-        inStock: 9
+        inStock: 9,
+        material: 'Organza',
+        colors: ['Green'],
+        rating: 4.7,
+        reviewCount: 55
     },
     {
         id: 55,
@@ -781,7 +1009,11 @@ let products = [
         warranty: '1 year',
         actualPrice: 5454,
         discountedPrice: 4800,
-        inStock: 14
+        inStock: 14,
+        material: 'Raw Silk',
+        colors: ['Peach'],
+        rating: 4.5,
+        reviewCount: 60
     },
     {
         id: 56,
@@ -795,7 +1027,11 @@ let products = [
         warranty: '1 year',
         actualPrice: 6463,
         discountedPrice: 5300,
-        inStock: 11
+        inStock: 11,
+        material: 'Tussar Silk',
+        colors: ['Teal'],
+        rating: 4.6,
+        reviewCount: 45
     },
     {
         id: 57,
@@ -809,7 +1045,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 2777,
         discountedPrice: 2500,
-        inStock: 21
+        inStock: 21,
+        material: 'Art Silk',
+        colors: ['Yellow'],
+        rating: 4.2,
+        reviewCount: 30
     },
     {
         id: 58,
@@ -823,7 +1063,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 4302,
         discountedPrice: 3700,
-        inStock: 17
+        inStock: 17,
+        material: 'Chiffon',
+        colors: ['Teal'],
+        rating: 4.4,
+        reviewCount: 50
     },
     {
         id: 59,
@@ -837,7 +1081,11 @@ let products = [
         warranty: '1 year',
         actualPrice: 6500,
         discountedPrice: 5200,
-        inStock: 6
+        inStock: 6,
+        material: 'Patola Silk',
+        colors: ['Pink'],
+        rating: 4.7,
+        reviewCount: 80
     },
     {
         id: 60,
@@ -851,10 +1099,33 @@ let products = [
         warranty: '6 months',
         actualPrice: 3412,
         discountedPrice: 2900,
-        inStock: 19
+        inStock: 19,
+        material: 'Bandhani Silk',
+        colors: ['Red'],
+        rating: 4.3,
+        reviewCount: 60
     },
+    
      // Dresses - Subcategory (ID from 61 to 80)
      {
+        id: 44,
+        mainCategory: 'Women',
+        subCategory: 'Sarees',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20241117/JADt/6739ca2cc148fa1b30ceda94/-473Wx593H-700761687-teal-MODEL.jpg',
+        title: 'Linen Saree with Floral Print',
+        brand: 'LUXE WEAVES',
+        price: 2200,
+        discount: 12,
+        warranty: '6 months',
+        actualPrice: 2500,
+        discountedPrice: 2200,
+        inStock: 25,
+        material: 'Linen',
+        colors: ['Teal'],
+        rating: 4.2,
+        reviewCount: 65
+    },
+    {
         id: 61,
         mainCategory: 'Women',
         subCategory: 'Dresses',
@@ -866,7 +1137,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 3977,
         discountedPrice: 3500,
-        inStock: 18
+        inStock: 18,
+        material: 'Cotton Blend',
+        colors: ['Purple'],
+        rating: 4.5,
+        reviewCount: 80
     },
     {
         id: 62,
@@ -880,7 +1155,11 @@ let products = [
         warranty: '1 year',
         actualPrice: 4941,
         discountedPrice: 4200,
-        inStock: 12
+        inStock: 12,
+        material: 'Satin',
+        colors: ['Red'],
+        rating: 4.8,
+        reviewCount: 95
     },
     {
         id: 63,
@@ -894,7 +1173,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 3111,
         discountedPrice: 2800,
-        inStock: 22
+        inStock: 22,
+        material: 'Polyester',
+        colors: ['Blue'],
+        rating: 4.3,
+        reviewCount: 72
     },
     {
         id: 64,
@@ -908,7 +1191,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 2526,
         discountedPrice: 2400,
-        inStock: 30
+        inStock: 30,
+        material: 'Cotton',
+        colors: ['Pink'],
+        rating: 4.0,
+        reviewCount: 56
     },
     {
         id: 65,
@@ -922,7 +1209,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 2117,
         discountedPrice: 1800,
-        inStock: 25
+        inStock: 25,
+        material: 'Linen',
+        colors: ['Black'],
+        rating: 4.6,
+        reviewCount: 49
     },
     {
         id: 66,
@@ -936,7 +1227,11 @@ let products = [
         warranty: '1 year',
         actualPrice: 4125,
         discountedPrice: 3300,
-        inStock: 15
+        inStock: 15,
+        material: 'Cotton',
+        colors: ['Brown'],
+        rating: 4.4,
+        reviewCount: 60
     },
     {
         id: 67,
@@ -950,8 +1245,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 2680,
         discountedPrice: 2200,
-        inStock: 20
-        // https://assets.ajio.com/medias/sys_master/root/20240216/sAs7/65ceb8c616fd2c6e6aff44a8/-473Wx593H-467078981-blue-MODEL.jpg/
+        inStock: 20,
+        material: 'Viscose',
+        colors: ['Red'],
+        rating: 4.2,
+        reviewCount: 58
     },
     {
         id: 68,
@@ -965,7 +1263,11 @@ let products = [
         warranty: '6 months',
         actualPrice: 3222,
         discountedPrice: 2900,
-        inStock: 10
+        inStock: 10,
+        material: 'Polyester',
+        colors: ['Gold'],
+        rating: 4.7,
+        reviewCount: 45
     },
     {
         id: 69,
@@ -979,7 +1281,11 @@ let products = [
         warranty: '1 year',
         actualPrice: 4318,
         discountedPrice: 3800,
-        inStock: 13
+        inStock: 13,
+        material: 'Satin',
+        colors: ['Gold'],
+        rating: 4.9,
+        reviewCount: 82
     },
     {
         id: 70,
@@ -993,147 +1299,11 @@ let products = [
         warranty: '1 year',
         actualPrice: 5294,
         discountedPrice: 4500,
-        inStock: 9
-    },
-    {
-        id: 71,
-        mainCategory: 'Women',
-        subCategory: 'Dresses',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20241106/xIWR/672a7ea2f9b8ef490b0495b1/-473Wx593H-700704479-blue-MODEL2.jpg',
-        title: 'Flared Denim Dress',
-        brand: 'VINTAGE STYLE',
-        price: 2800,
-        discount: 8,
-        warranty: '6 months',
-        actualPrice: 3043,
-        discountedPrice: 2800,
-        inStock: 16
-    },
-    {
-        id: 72,
-        mainCategory: 'Women',
-        subCategory: 'Dresses',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20241206/JdW0/675229390f47f80c87ddbaa6/-473Wx593H-700884639-multi-MODEL.jpg',
-        title: 'Off-shoulder Dress with Floral Embroidery',
-        brand: 'EMBELLISH',
-        price: 3500,
-        discount: 20,
-        warranty: '1 year',
-        actualPrice: 4375,
-        discountedPrice: 3500,
-        inStock: 8
-    },
-    {
-        id: 73,
-        mainCategory: 'Women',
-        subCategory: 'Dresses',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20220909/8OAf/631a4eb8f997dd1f8def16f4/-473Wx593H-410318602-teal-MODEL.jpg',
-        title: 'Bohemian Midi Dress',
-        brand: 'BOHO DESIGNS',
-        price: 2400,
-        discount: 10,
-        warranty: '6 months',
-        actualPrice: 2666,
-        discountedPrice: 2400,
-        inStock: 12
-    },
-    {
-        id: 74,
-        mainCategory: 'Women',
-        subCategory: 'Dresses',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240611/LHsR/6667a87005ac7d77bbceee17/-473Wx593H-461443582-grey-MODEL.jpg',
-        title: 'Wrap Dress with Tie Waist',
-        brand: 'FEMME STYLE',
-        price: 3600,
-        discount: 18,
-        warranty: '6 months',
-        actualPrice: 4390,
-        discountedPrice: 3600,
-        inStock: 14
-    },
-    {
-        id: 75,
-        mainCategory: 'Women',
-        subCategory: 'Dresses',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20230818/Ti23/64df9168ddf779151952b897/-473Wx593H-469499128-wine-MODEL5.jpg',
-        title: 'Ruched Bodycon Dress',
-        brand: 'URBAN FASHION',
-        price: 2900,
-        discount: 10,
-        warranty: '6 months',
-        actualPrice: 3222,
-        discountedPrice: 2900,
-        inStock: 18
-    },
-    {
-        id: 76,
-        mainCategory: 'Women',
-        subCategory: 'Dresses',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20241022/xX61/6717c18b260f9c41e89288d7/-473Wx593H-469682204-khaki-MODEL.jpg',
-        title: 'High-neck Long Sleeve Dress',
-        brand: 'COZY STYLE',
-        price: 3200,
-        discount: 5,
-        warranty: '6 months',
-        actualPrice: 3368,
-        discountedPrice: 3200,
-        inStock: 15
-    },
-    {
-        id: 77,
-        mainCategory: 'Women',
-        subCategory: 'Dresses',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20241216/PmOH/67602d88c148fa1b303f7ece/-473Wx593H-469687159-mustard-MODEL.jpg',
-        title: 'Peplum Dress with Ruffle Hem',
-        brand: 'FASHION PULSE',
-        price: 4000,
-        discount: 12,
-        warranty: '1 year',
-        actualPrice: 4545,
-        discountedPrice: 4000,
-        inStock: 9
-    },
-    {
-        id: 78,
-        mainCategory: 'Women',
-        subCategory: 'Dresses',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240821/mymC/66c5dfb61d763220fa8b2397/-473Wx593H-443049003-offwhite-MODEL.jpg',
-        title: 'Plaid Mini Dress',
-        brand: 'TRENDING NOW',
-        price: 2500,
-        discount: 20,
-        warranty: '6 months',
-        actualPrice: 3125,
-        discountedPrice: 2500,
-        inStock: 20
-    },
-    {
-        id: 79,
-        mainCategory: 'Women',
-        subCategory: 'Dresses',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20230810/hOyH/64d4ea11a9b42d15c9a17514/-473Wx593H-466443480-blue-MODEL2.jpg',
-        title: 'Boho Chic Dress with Tassels',
-        brand: 'BOHO GALORE',
-        price: 3800,
-        discount: 10,
-        warranty: '1 year',
-        actualPrice: 4222,
-        discountedPrice: 3800,
-        inStock: 11
-    },
-    {
-        id: 80,
-        mainCategory: 'Women',
-        subCategory: 'Dresses',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240308/3u8z/65eb156405ac7d77bba2132d/-473Wx593H-467148899-beige-MODEL.jpg',
-        title: 'Tunic Dress with Front Pockets',
-        brand: 'SIMPLE CHIC',
-        price: 2700,
-        discount: 15,
-        warranty: '6 months',
-        actualPrice: 3176,
-        discountedPrice: 2700,
-        inStock: 19
+        inStock: 9,
+        material: 'Polyester',
+        colors: ['Black'],
+        rating: 4.4,
+        reviewCount: 55
     }, 
      // Boys - Subcategory (ID from 81 to 100)
      {
@@ -1148,7 +1318,12 @@ let products = [
         warranty: '6 months',
         actualPrice: 1666,
         discountedPrice: 1500,
-        inStock: 25
+        size: ['S', 'M', 'L'],
+        inStock: 25,
+        material: 'Denim',
+        colors: ['Blue'],
+        rating: 4.3,
+        reviewCount: 210
     },
     {
         id: 82,
@@ -1162,7 +1337,12 @@ let products = [
         warranty: '3 months',
         actualPrice: 526,
         discountedPrice: 500,
-        inStock: 50
+        size: ['S', 'M', 'L'],
+        inStock: 50,
+        material: 'Cotton Blend',
+        colors: ['Multi'],
+        rating: 4.0,
+        reviewCount: 180
     },
     {
         id: 83,
@@ -1176,7 +1356,12 @@ let products = [
         warranty: '6 months',
         actualPrice: 1412,
         discountedPrice: 1200,
-        inStock: 30
+        size: ['M', 'L', 'XL'],
+        inStock: 30,
+        material: 'Cotton',
+        colors: ['Brown'],
+        rating: 4.2,
+        reviewCount: 145
     },
     {
         id: 84,
@@ -1190,7 +1375,12 @@ let products = [
         warranty: '1 year',
         actualPrice: 2045,
         discountedPrice: 1800,
-        inStock: 22
+        size: ['S', 'M', 'L'],
+        inStock: 22,
+        material: 'Fleece',
+        colors: ['White'],
+        rating: 4.4,
+        reviewCount: 160
     },
     {
         id: 85,
@@ -1204,7 +1394,12 @@ let products = [
         warranty: '6 months',
         actualPrice: 1034,
         discountedPrice: 950,
-        inStock: 40
+        size: ['S', 'M', 'L'],
+        inStock: 40,
+        material: 'Cotton',
+        colors: ['White'],
+        rating: 4.3,
+        reviewCount: 110
     },
     {
         id: 86,
@@ -1218,7 +1413,12 @@ let products = [
         warranty: '1 year',
         actualPrice: 2316,
         discountedPrice: 2200,
-        inStock: 18
+        size: ['3', '4', '5'],
+        inStock: 18,
+        material: 'Synthetic',
+        colors: ['Black'],
+        rating: 4.5,
+        reviewCount: 75
     },
     {
         id: 87,
@@ -1232,7 +1432,12 @@ let products = [
         warranty: '1 year',
         actualPrice: 3125,
         discountedPrice: 2500,
-        inStock: 14
+        size: ['S', 'M', 'L'],
+        inStock: 14,
+        material: 'Wool Blend',
+        colors: ['Navy'],
+        rating: 4.6,
+        reviewCount: 95
     },
     {
         id: 88,
@@ -1246,7 +1451,12 @@ let products = [
         warranty: '6 months',
         actualPrice: 1888,
         discountedPrice: 1700,
-        inStock: 30
+        size: ['3', '4', '5'],
+        inStock: 30,
+        material: 'Synthetic',
+        colors: ['White'],
+        rating: 4.4,
+        reviewCount: 120
     },
     {
         id: 89,
@@ -1260,7 +1470,12 @@ let products = [
         warranty: '3 months',
         actualPrice: 840,
         discountedPrice: 800,
-        inStock: 45
+        size: ['S', 'M', 'L'],
+        inStock: 45,
+        material: 'Polyester',
+        colors: ['Blue'],
+        rating: 4.1,
+        reviewCount: 135
     },
     {
         id: 90,
@@ -1274,7 +1489,12 @@ let products = [
         warranty: '1 year',
         actualPrice: 2500,
         discountedPrice: 2200,
-        inStock: 20
+        size: ['3', '4', '5'],
+        inStock: 20,
+        material: 'Leather',
+        colors: ['Brown'],
+        rating: 4.5,
+        reviewCount: 80
     },
     {
         id: 91,
@@ -1288,7 +1508,12 @@ let products = [
         warranty: '6 months',
         actualPrice: 1294,
         discountedPrice: 1100,
-        inStock: 35
+        size: ['S', 'M', 'L'],
+        inStock: 35,
+        material: 'Cotton',
+        colors: ['Navy'],
+        rating: 4.3,
+        reviewCount: 160
     },
     {
         id: 92,
@@ -1302,7 +1527,12 @@ let products = [
         warranty: '6 months',
         actualPrice: 722,
         discountedPrice: 650,
-        inStock: 50
+        size: ['S', 'M', 'L'],
+        inStock: 50,
+        material: 'Cotton',
+        colors: ['Navy'],
+        rating: 4.1,
+        reviewCount: 130
     },
     {
         id: 93,
@@ -1316,7 +1546,12 @@ let products = [
         warranty: '3 months',
         actualPrice: 526,
         discountedPrice: 500,
-        inStock: 60
+        size: ['S', 'M', 'L'],
+        inStock: 60,
+        material: 'Cotton',
+        colors: ['Navy'],
+        rating: 4.0,
+        reviewCount: 180
     },
     {
         id: 94,
@@ -1330,7 +1565,12 @@ let products = [
         warranty: '6 months',
         actualPrice: 2000,
         discountedPrice: 1600,
-        inStock: 12
+        size: ['S', 'M', 'L'],
+        inStock: 12,
+        material: 'Denim',
+        colors: ['Blue'],
+        rating: 4.4,
+        reviewCount: 100
     },
     {
         id: 95,
@@ -1344,7 +1584,12 @@ let products = [
         warranty: '6 months',
         actualPrice: 777,
         discountedPrice: 700,
-        inStock: 45
+        size: ['S', 'M', 'L'],
+        inStock: 45,
+        material: 'Polyester',
+        colors: ['Blue'],
+        rating: 4.3,
+        reviewCount: 150
     },
     {
         id: 96,
@@ -1358,7 +1603,12 @@ let products = [
         warranty: '6 months',
         actualPrice: 1578,
         discountedPrice: 1500,
-        inStock: 27
+        size: ['S', 'M', 'L'],
+        inStock: 27,
+        material: 'Cotton Blend',
+        colors: ['Black'],
+        rating: 4.2,
+        reviewCount: 110
     },
     {
         id: 97,
@@ -1372,7 +1622,12 @@ let products = [
         warranty: '6 months',
         actualPrice: 1472,
         discountedPrice: 1300,
-        inStock: 32
+        size: ['M', 'L', 'XL'],
+        inStock: 32,
+        material: 'Denim',
+        colors: ['Blue'],
+        rating: 4.4,
+        reviewCount: 140
     },
     {
         id: 98,
@@ -1386,7 +1641,12 @@ let products = [
         warranty: '1 year',
         actualPrice: 2280,
         discountedPrice: 2100,
-        inStock: 22
+        size: ['3', '4', '5'],
+        inStock: 22,
+        material: 'Leather',
+        colors: ['White/Black'],
+        rating: 4.5,
+        reviewCount: 95
     },
     {
         id: 99,
@@ -1400,7 +1660,12 @@ let products = [
         warranty: '3 months',
         actualPrice: 823,
         discountedPrice: 700,
-        inStock: 50
+        size: ['S', 'M', 'L'],
+        inStock: 50,
+        material: 'Cotton',
+        colors: ['Multi'],
+        rating: 4.3,
+        reviewCount: 190
     },
     {
         id: 100,
@@ -1414,579 +1679,784 @@ let products = [
         warranty: '6 months',
         actualPrice: 2000,
         discountedPrice: 1800,
-        inStock: 28
+        size: ['S', 'M', 'L'],
+        inStock: 28,
+        material: 'Polyester',
+        colors: ['Black'],
+        rating: 4.2,
+        reviewCount: 115
     },
 
     // Girls - Subcategory (ID from 101 to 120)
-    {
-        id: 101,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240825/0d4u/66cb05d06f60443f3128e036/-473Wx593H-467151090-pink-MODEL.jpg',
-        title: 'Girls Floral Dress',
-        brand: 'GIRLS FASHION',
-        price: 1600,
-        discount: 15,
-        warranty: '6 months',
-        actualPrice: 1882,
-        discountedPrice: 1600,
-        inStock: 25
-    },
-    {
-        id: 102,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240807/yIuJ/66b37c076f60443f31f3c866/-473Wx593H-443043527-pink-MODEL.jpg',
-        title: 'Girls Pink Cardigan',
-        brand: 'CUTE KIDS',
-        price: 900,
-        discount: 10,
-        warranty: '6 months',
-        actualPrice: 1000,
-        discountedPrice: 900,
-        inStock: 40
-    },
-    {
-        id: 103,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240808/Bgx7/66b4f0b16f60443f31f8c397/-473Wx593H-442588756-blue-MODEL.jpg',
-        title: 'Girls Denim Skirt',
-        brand: 'GIRLS TRENDS',
-        price: 1200,
-        discount: 8,
-        warranty: '6 months',
-        actualPrice: 1300,
-        discountedPrice: 1200,
-        inStock: 35
-    },
-    {
-        id: 104,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20250114/UfRq/678597bf663dbe1c5fd63fd5/-473Wx593H-701054491-silver-MODEL3.jpg',
-        title: 'Girls Sparkly Shoes',
-        brand: 'SHOE STYLE',
-        price: 1800,
-        discount: 5,
-        warranty: '1 year',
-        actualPrice: 1895,
-        discountedPrice: 1800,
-        inStock: 28
-    },
-    {
-        id: 105,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20231010/xrfX/652564b6afa4cf41f538e2d6/-473Wx593H-443018584-lilac-MODEL.jpg',
-        title: 'Girls Purple Hoodie',
-        brand: 'STREET GIRLS',
-        price: 1500,
-        discount: 10,
-        warranty: '6 months',
-        actualPrice: 1667,
-        discountedPrice: 1500,
-        inStock: 50
-    },
-    {
-        id: 106,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240920/nE3B/66ed427df9b8ef490b54cfda/-473Wx593H-464773217-pink-MODEL2.jpg',
-        title: 'Girls Summer Dress',
-        brand: 'BEAUTY GIRL',
-        price: 1300,
-        discount: 12,
-        warranty: '6 months',
-        actualPrice: 1470,
-        discountedPrice: 1300,
-        inStock: 45
-    },
-    {
-        id: 107,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20231003/h2QE/651bf179ddf779151912169e/-473Wx593H-466657865-pink-MODEL5.jpg',
-        title: 'Girls Pink Sneakers',
-        brand: 'KIDS FAVES',
-        price: 2200,
-        discount: 15,
-        warranty: '1 year',
-        actualPrice: 2588,
-        discountedPrice: 2200,
-        inStock: 20
-    },
-    {
-        id: 108,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240229/fiUD/65df9e0f05ac7d77bb87e89a/-473Wx593H-442584613-blue-MODEL.jpg',
-        title: 'Girls Rainbow Leggings',
-        brand: 'RAINBOW STYLE',
-        price: 800,
-        discount: 10,
-        warranty: '6 months',
-        actualPrice: 888,
-        discountedPrice: 800,
-        inStock: 50
-    },
-    {
-        id: 109,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240705/AtEi/66874a891d763220faebe301/-473Wx593H-700164145-black-MODEL.jpg',
-        title: 'Girls Party Dress',
-        brand: 'PARTY GIRL',
-        price: 2000,
-        discount: 10,
-        warranty: '6 months',
-        actualPrice: 2222,
-        discountedPrice: 2000,
-        inStock: 30
-    },
-    {
-        id: 110,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20241112/4vZ4/67334b89f9b8ef490b16aa81/-473Wx593H-450163432-silver-MODEL.jpg',
-        title: 'Girls Ballet Flats',
-        brand: 'PRETTY FEET',
-        price: 1100,
-        discount: 8,
-        warranty: '6 months',
-        actualPrice: 1199,
-        discountedPrice: 1100,
-        inStock: 33
-    },
-    {
-        id: 111,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20231005/Oy3G/651ee2cbafa4cf41f52a6ed4/-473Wx593H-466676400-maroon-MODEL.jpg',
-        title: 'Girls Floral Pajama Set',
-        brand: 'SLEEPY GIRLS',
-        price: 850,
-        discount: 5,
-        warranty: '3 months',
-        actualPrice: 894,
-        discountedPrice: 850,
-        inStock: 60
-    },
-    {
-        id: 112,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240829/gpKj/66d08e5f6f60443f313da27b/-473Wx593H-700322312-black-MODEL2.jpg',
-        title: 'Girls Warm Leggings',
-        brand: 'COZY GIRLS',
-        price: 1000,
-        discount: 10,
-        warranty: '6 months',
-        actualPrice: 1111,
-        discountedPrice: 1000,
-        inStock: 45
-    },
-    {
-        id: 113,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20231006/bU6s/651f13d1afa4cf41f52b09d7/-473Wx593H-466676413-pink-MODEL4.jpg',
-        title: 'Girls White T-shirt',
-        brand: 'KIDS CLOTHING',
-        price: 600,
-        discount: 12,
-        warranty: '3 months',
-        actualPrice: 681,
-        discountedPrice: 600,
-        inStock: 50
-    },
-    {
-        id: 114,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20241015/RP51/670e4042f9b8ef490bba6f30/-473Wx593H-464624201-white-MODEL.jpg',
-        title: 'Girls Ruffle Skirt',
-        brand: 'RUFFLE GIRL',
-        price: 950,
-        discount: 8,
-        warranty: '6 months',
-        actualPrice: 1034,
-        discountedPrice: 950,
-        inStock: 38
-    },
-    {
-        id: 115,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240612/5PPU/666a214d16fd2c6e6acf38ae/-473Wx593H-463188694-yellow-MODEL.jpg',
-        title: 'Girls Denim Overalls',
-        brand: 'FAVES GIRL',
-        price: 1500,
-        discount: 15,
-        warranty: '6 months',
-        actualPrice: 1764,
-        discountedPrice: 1500,
-        inStock: 22
-    },
-    {
-        id: 116,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20230810/iLPA/64d4e7bbeebac147fcbcbf3e/-473Wx593H-466445196-pink-MODEL2.jpg',
-        title: 'Girls Sports Shoes',
-        brand: 'SPORTY GIRL',
-        price: 2200,
-        discount: 10,
-        warranty: '1 year',
-        actualPrice: 2444,
-        discountedPrice: 2200,
-        inStock: 15
-    },
-    {
-        id: 117,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240808/lMJx/66b4ce861d763220fa6a4865/-473Wx593H-443043448-blue-MODEL.jpg',
-        title: 'Girls Cardigan',
-        brand: 'CUTE STYLE',
-        price: 1200,
-        discount: 5,
-        warranty: '6 months',
-        actualPrice: 1263,
-        discountedPrice: 1200,
-        inStock: 40
-    },
-    {
-        id: 118,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20231024/UK0g/65371c6cafa4cf41f55afa6e/-473Wx593H-466707532-black-MODEL5.jpg',
-        title: 'Girls Striped Dress',
-        brand: 'SUMMER GIRLS',
-        price: 1500,
-        discount: 8,
-        warranty: '6 months',
-        actualPrice: 1621,
-        discountedPrice: 1500,
-        inStock: 24
-    },
-    {
-        id: 119,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20230801/Rf5m/64c92134a9b42d15c981d363/-473Wx593H-466407419-white-MODEL4.jpg',
-        title: 'Girls Round toeBIt Loafers',
-        brand: 'STREET GIRL',
-        price: 2000,
-        discount: 10,
-        warranty: '6 months',
-        actualPrice: 2222,
-        discountedPrice: 2000,
-        inStock: 18
-    },
-    {
-        id: 120,
-        mainCategory: 'Children',
-        subCategory: 'Girls',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20241103/PKd5/67277f46f9b8ef490bfb5290/-473Wx593H-700694758-green-MODEL2.jpg',
-        title: 'Girls Active Wear Set',
-        brand: 'ACTIVE GIRLS',
-        price: 1800,
-        discount: 10,
-        warranty: '1 year',
-        actualPrice: 2000,
-        discountedPrice: 1800,
-        inStock: 27
-    },
+        {
+            id: 101,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240825/0d4u/66cb05d06f60443f3128e036/-473Wx593H-467151090-pink-MODEL.jpg',
+            title: 'Girls Floral Dress',
+            brand: 'GIRLS FASHION',
+            price: 1600,
+            discount: 15,
+            warranty: '6 months',
+            actualPrice: 1882,
+            discountedPrice: 1600,
+            size: ['S', 'M', 'L'],
+            inStock: 25,
+            material: 'Cotton',
+            colors: ['Pink'],
+            rating: 4.5,
+            reviewCount: 180
+        },
+        {
+            id: 102,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240807/yIuJ/66b37c076f60443f31f3c866/-473Wx593H-443043527-pink-MODEL.jpg',
+            title: 'Girls Pink Cardigan',
+            brand: 'CUTE KIDS',
+            price: 900,
+            discount: 10,
+            warranty: '6 months',
+            actualPrice: 1000,
+            discountedPrice: 900,
+            size: ['S', 'M', 'L'],
+            inStock: 40,
+            material: 'Acrylic',
+            colors: ['Pink'],
+            rating: 4.2,
+            reviewCount: 150
+        },
+        {
+            id: 103,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240808/Bgx7/66b4f0b16f60443f31f8c397/-473Wx593H-442588756-blue-MODEL.jpg',
+            title: 'Girls Denim Skirt',
+            brand: 'GIRLS TRENDS',
+            price: 1200,
+            discount: 8,
+            warranty: '6 months',
+            actualPrice: 1300,
+            discountedPrice: 1200,
+            size: ['S', 'M', 'L'],
+            inStock: 35,
+            material: 'Denim',
+            colors: ['Blue'],
+            rating: 4.3,
+            reviewCount: 120
+        },
+        {
+            id: 104,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20250114/UfRq/678597bf663dbe1c5fd63fd5/-473Wx593H-701054491-silver-MODEL3.jpg',
+            title: 'Girls Sparkly Shoes',
+            brand: 'SHOE STYLE',
+            price: 1800,
+            discount: 5,
+            warranty: '1 year',
+            actualPrice: 1895,
+            discountedPrice: 1800,
+            size: ['3', '4', '5'],
+            inStock: 28,
+            material: 'Synthetic',
+            colors: ['Silver'],
+            rating: 4.4,
+            reviewCount: 75
+        },
+        {
+            id: 105,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20231010/xrfX/652564b6afa4cf41f538e2d6/-473Wx593H-443018584-lilac-MODEL.jpg',
+            title: 'Girls Purple Hoodie',
+            brand: 'STREET GIRLS',
+            price: 1500,
+            discount: 10,
+            warranty: '6 months',
+            actualPrice: 1667,
+            discountedPrice: 1500,
+            size: ['S', 'M', 'L'],
+            inStock: 50,
+            material: 'Cotton Blend',
+            colors: ['Purple'],
+            rating: 4.6,
+            reviewCount: 200
+        },
+        {
+            id: 106,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240920/nE3B/66ed427df9b8ef490b54cfda/-473Wx593H-464773217-pink-MODEL2.jpg',
+            title: 'Girls Summer Dress',
+            brand: 'BEAUTY GIRL',
+            price: 1300,
+            discount: 12,
+            warranty: '6 months',
+            actualPrice: 1470,
+            discountedPrice: 1300,
+            size: ['S', 'M', 'L'],
+            inStock: 45,
+            material: 'Cotton',
+            colors: ['Pink'],
+            rating: 4.3,
+            reviewCount: 180
+        },
+        {
+            id: 107,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20231003/h2QE/651bf179ddf779151912169e/-473Wx593H-466657865-pink-MODEL5.jpg',
+            title: 'Girls Pink Sneakers',
+            brand: 'KIDS FAVES',
+            price: 2200,
+            discount: 15,
+            warranty: '1 year',
+            actualPrice: 2588,
+            discountedPrice: 2200,
+            size: ['3', '4', '5'],
+            inStock: 20,
+            material: 'Leather',
+            colors: ['Pink'],
+            rating: 4.5,
+            reviewCount: 160
+        },
+        {
+            id: 108,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240229/fiUD/65df9e0f05ac7d77bb87e89a/-473Wx593H-442584613-blue-MODEL.jpg',
+            title: 'Girls Rainbow Leggings',
+            brand: 'RAINBOW STYLE',
+            price: 800,
+            discount: 10,
+            warranty: '6 months',
+            actualPrice: 888,
+            discountedPrice: 800,
+            size: ['S', 'M', 'L'],
+            inStock: 50,
+            material: 'Cotton',
+            colors: ['Rainbow'],
+            rating: 4.2,
+            reviewCount: 130
+        },
+        {
+            id: 109,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240705/AtEi/66874a891d763220faebe301/-473Wx593H-700164145-black-MODEL.jpg',
+            title: 'Girls Party Dress',
+            brand: 'PARTY GIRL',
+            price: 2000,
+            discount: 10,
+            warranty: '6 months',
+            actualPrice: 2222,
+            discountedPrice: 2000,
+            size: ['S', 'M', 'L'],
+            inStock: 30,
+            material: 'Satin',
+            colors: ['Black'],
+            rating: 4.3,
+            reviewCount: 100
+        },
+        {
+            id: 110,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20241112/4vZ4/67334b89f9b8ef490b16aa81/-473Wx593H-450163432-silver-MODEL.jpg',
+            title: 'Girls Ballet Flats',
+            brand: 'PRETTY FEET',
+            price: 1100,
+            discount: 8,
+            warranty: '6 months',
+            actualPrice: 1199,
+            discountedPrice: 1100,
+            size: ['3', '4', '5'],
+            inStock: 33,
+            material: 'Synthetic',
+            colors: ['Silver'],
+            rating: 4.4,
+            reviewCount: 80
+        },
+        {
+            id: 111,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20231005/Oy3G/651ee2cbafa4cf41f52a6ed4/-473Wx593H-466676400-maroon-MODEL.jpg',
+            title: 'Girls Floral Pajama Set',
+            brand: 'SLEEPY GIRLS',
+            price: 850,
+            discount: 5,
+            warranty: '3 months',
+            actualPrice: 894,
+            discountedPrice: 850,
+            size: ['S', 'M', 'L'],
+            inStock: 60,
+            material: 'Cotton',
+            colors: ['Maroon'],
+            rating: 4.1,
+            reviewCount: 150
+        },
+        {
+            id: 112,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240829/gpKj/66d08e5f6f60443f313da27b/-473Wx593H-700322312-black-MODEL2.jpg',
+            title: 'Girls Warm Leggings',
+            brand: 'COZY GIRLS',
+            price: 1000,
+            discount: 10,
+            warranty: '6 months',
+            actualPrice: 1111,
+            discountedPrice: 1000,
+            size: ['S', 'M', 'L'],
+            inStock: 45,
+            material: 'Cotton Blend',
+            colors: ['Black'],
+            rating: 4.2,
+            reviewCount: 120
+        },
+        {
+            id: 113,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20231006/bU6s/651f13d1afa4cf41f52b09d7/-473Wx593H-466676413-pink-MODEL4.jpg',
+            title: 'Girls White T-shirt',
+            brand: 'KIDS CLOTHING',
+            price: 600,
+            discount: 12,
+            warranty: '3 months',
+            actualPrice: 681,
+            discountedPrice: 600,
+            size: ['S', 'M', 'L'],
+            inStock: 50,
+            material: 'Cotton',
+            colors: ['White'],
+            rating: 4.3,
+            reviewCount: 170
+        },
+        {
+            id: 114,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20241015/RP51/670e4042f9b8ef490bba6f30/-473Wx593H-464624201-white-MODEL.jpg',
+            title: 'Girls Ruffle Skirt',
+            brand: 'RUFFLE GIRL',
+            price: 950,
+            discount: 8,
+            warranty: '6 months',
+            actualPrice: 1034,
+            discountedPrice: 950,
+            size: ['S', 'M', 'L'],
+            inStock: 38,
+            material: 'Cotton',
+            colors: ['White'],
+            rating: 4.2,
+            reviewCount: 140
+        },
+        {
+            id: 115,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240612/5PPU/666a214d16fd2c6e6acf38ae/-473Wx593H-463188694-yellow-MODEL.jpg',
+            title: 'Girls Denim Overalls',
+            brand: 'FAVES GIRL',
+            price: 1500,
+            discount: 15,
+            warranty: '6 months',
+            actualPrice: 1764,
+            discountedPrice: 1500,
+            size: ['S', 'M', 'L'],
+            inStock: 22,
+            material: 'Denim',
+            colors: ['Yellow'],
+            rating: 4.3,
+            reviewCount: 130
+        },
+        {
+            id: 116,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20230810/iLPA/64d4e7bbeebac147fcbcbf3e/-473Wx593H-466445196-pink-MODEL2.jpg',
+            title: 'Girls Sports Shoes',
+            brand: 'SPORTY GIRL',
+            price: 2200,
+            discount: 10,
+            warranty: '1 year',
+            actualPrice: 2444,
+            discountedPrice: 2200,
+            size: ['3', '4', '5'],
+            inStock: 15,
+            material: 'Leather',
+            colors: ['Pink'],
+            rating: 4.4,
+            reviewCount: 110
+        },
+        {
+            id: 117,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240808/lMJx/66b4ce861d763220fa6a4865/-473Wx593H-443043448-blue-MODEL.jpg',
+            title: 'Girls Cardigan',
+            brand: 'CUTE STYLE',
+            price: 1200,
+            discount: 5,
+            warranty: '6 months',
+            actualPrice: 1263,
+            discountedPrice: 1200,
+            size: ['S', 'M', 'L'],
+            inStock: 40,
+            material: 'Acrylic',
+            colors: ['Blue'],
+            rating: 4.1,
+            reviewCount: 140
+        },
+        {
+            id: 118,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20231024/UK0g/65371c6cafa4cf41f55afa6e/-473Wx593H-466707532-black-MODEL5.jpg',
+            title: 'Girls Striped Dress',
+            brand: 'SUMMER GIRLS',
+            price: 1500,
+            discount: 8,
+            warranty: '6 months',
+            actualPrice: 1621,
+            discountedPrice: 1500,
+            size: ['S', 'M', 'L'],
+            inStock: 24,
+            material: 'Cotton',
+            colors: ['Black/White'],
+            rating: 4.3,
+            reviewCount: 130
+        },
+        {
+            id: 119,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20230801/Rf5m/64c92134a9b42d15c981d363/-473Wx593H-466407419-red-MODEL.jpg',
+            title: 'Girls Red Dress',
+            brand: 'RED FASHION',
+            price: 1800,
+            discount: 10,
+            warranty: '6 months',
+            actualPrice: 2000,
+            discountedPrice: 1800,
+            size: ['S', 'M', 'L'],
+            inStock: 20,
+            material: 'Cotton',
+            colors: ['Red'],
+            rating: 4.5,
+            reviewCount: 110
+        },
+        {
+            id: 120,
+            mainCategory: 'Children',
+            subCategory: 'Girls',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240905/RXRi/66d9b43d1d763220fac72f83/-473Wx593H-700376971-navy-MODEL2.jpg',
+            title: 'Girls Blue Dress',
+            brand: 'FASHIONISTA GIRLS',
+            price: 1700,
+            discount: 5,
+            warranty: '6 months',
+            actualPrice: 1789,
+            discountedPrice: 1700,
+            size: ['S', 'M', 'L'],
+            inStock: 38,
+            material: 'Cotton',
+            colors: ['Blue'],
+            rating: 4.6,
+            reviewCount: 140
+        },    
 
        // Men - Subcategory (ID from 121 to 140)
-       {
-        id: 121,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240316/49kh/65f4af1e05ac7d77bbbc553f/-473Wx593H-467171822-brown-MODEL.jpg',
-        title: 'Men Brown Leather Boots',
-        brand: 'URBAN MENSWEAR',
-        price: 3500,
-        discount: 10,
-        warranty: '1 year',
-        actualPrice: 3888,
-        discountedPrice: 3500,
-        inStock: 18
-    },
-    {
-        id: 122,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20241115/tIVc/6736cf7cc148fa1b30c97e3a/-473Wx593H-700301302-grey-MODEL.jpg',
-        title: 'Men Casual Sneakers',
-        brand: 'ACTIVE MAN',
-        price: 2500,
-        discount: 5,
-        warranty: '6 months',
-        actualPrice: 2631,
-        discountedPrice: 2500,
-        inStock: 35
-    },
-    {
-        id: 123,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240919/Jh0i/66eb55a9260f9c41e81219d4/-473Wx593H-700440895-black-MODEL.jpg',
-        title: 'Men Running Shoes',
-        brand: 'SPORTY GUYS',
-        price: 2200,
-        discount: 12,
-        warranty: '1 year',
-        actualPrice: 2500,
-        discountedPrice: 2200,
-        inStock: 40
-    },
-    {
-        id: 124,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20230824/EEYM/64e76545ddf7791519677d37/-473Wx593H-461573490-black-MODEL.jpg',
-        title: 'Men Formal Black Shoes',
-        brand: 'MENS CLASSICS',
-        price: 3000,
-        discount: 8,
-        warranty: '1 year',
-        actualPrice: 3260,
-        discountedPrice: 3000,
-        inStock: 25
-    },
-    {
-        id: 125,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20241022/7kq2/67178f58f9b8ef490bd36b9f/-473Wx593H-700203844-beige-MODEL.jpg',
-        title: 'Men Slip-On Loafers',
-        brand: 'CULTURE MENSWEAR',
-        price: 1800,
-        discount: 10,
-        warranty: '6 months',
-        actualPrice: 2000,
-        discountedPrice: 1800,
-        inStock: 50
-    },
-    {
-        id: 126,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20250118/FYQ1/678ab2b50431850e0da620ff/-473Wx593H-701063985-beige-MODEL.jpg',
-        title: 'Men Boat Shoes',
-        brand: 'SLEEK MENSWEAR',
-        price: 2200,
-        discount: 15,
-        warranty: '6 months',
-        actualPrice: 2588,
-        discountedPrice: 2200,
-        inStock: 30
-    },
-    {
-        id: 127,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240312/wEoU/65f007ec05ac7d77bbac4a40/-473Wx593H-467054444-grey-MODEL.jpg',
-        title: 'Men Hiking Boots',
-        brand: 'ADVENTURE GUYS',
-        price: 4000,
-        discount: 20,
-        warranty: '1 year',
-        actualPrice: 5000,
-        discountedPrice: 4000,
-        inStock: 15
-    },
-    {
-        id: 128,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240711/lmEM/669007406f60443f31eadf46/-473Wx593H-467075168-grey-MODEL.jpg',
-        title: 'Men S Flip Flops',
-        brand: 'RED tap',
-        price: 800,
-        discount: 10,
-        warranty: '6 months',
-        actualPrice: 889,
-        discountedPrice: 800,
-        inStock: 50
-    },
-    {
-        id: 129,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240508/7lXO/663b8d7e16fd2c6e6af3e6c7/-473Wx593H-451019161-navy-MODEL7.jpg',
-        title: 'Men Casual Slip-On Sneakers',
-        brand: 'COMFY STYLE',
-        price: 2100,
-        discount: 7,
-        warranty: '6 months',
-        actualPrice: 2250,
-        discountedPrice: 2100,
-        inStock: 40
-    },
-    {
-        id: 130,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20240820/XlcU/66c471401d763220fa87051a/-473Wx593H-700301335-white-MODEL4.jpg',
-        title: 'Men White Canvas Sneakers',
-        brand: 'CLASSIC FOOTWEAR',
-        price: 1500,
-        discount: 5,
-        warranty: '3 months',
-        actualPrice: 1578,
-        discountedPrice: 1500,
-        inStock: 45
-    },
-    {
-        id: 131,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://assets.ajio.com/medias/sys_master/root/20241126/6ujT/6745d19ac148fa1b30ec745c/-473Wx593H-700806733-black-MODEL.jpg',
-        title: 'Men Black Leather Sneakers',
-        brand: 'MENSWEAR CHOICE',
-        price: 2700,
-        discount: 10,
-        warranty: '1 year',
-        actualPrice: 3000,
-        discountedPrice: 2700,
-        inStock: 20
-    },
-    {
-        id: 132,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://example.com/men132.jpg',
-        title: 'Men Grey Sports Shoes',
-        brand: 'FITNESS KICKS',
-        price: 1800,
-        discount: 12,
-        warranty: '6 months',
-        actualPrice: 2045,
-        discountedPrice: 1800,
-        inStock: 35
-    },
-    {
-        id: 133,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://example.com/men133.jpg',
-        title: 'Men Black Sandals',
-        brand: 'SUMMER FEET',
-        price: 1000,
-        discount: 5,
-        warranty: '3 months',
-        actualPrice: 1052,
-        discountedPrice: 1000,
-        inStock: 60
-    },
-    {
-        id: 134,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://example.com/men134.jpg',
-        title: 'Men White Running Shoes',
-        brand: 'SPORT PLUS',
-        price: 2000,
-        discount: 8,
-        warranty: '1 year',
-        actualPrice: 2174,
-        discountedPrice: 2000,
-        inStock: 25
-    },
-    {
-        id: 135,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://example.com/men135.jpg',
-        title: 'Men Casual Loafers',
-        brand: 'COMFY SOLE',
-        price: 1500,
-        discount: 10,
-        warranty: '6 months',
-        actualPrice: 1667,
-        discountedPrice: 1500,
-        inStock: 40
-    },
-    {
-        id: 136,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://example.com/men136.jpg',
-        title: 'Men Black Sneakers',
-        brand: 'KICK IT',
-        price: 2000,
-        discount: 5,
-        warranty: '6 months',
-        actualPrice: 2105,
-        discountedPrice: 2000,
-        inStock: 22
-    },
-    {
-        id: 137,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://example.com/men137.jpg',
-        title: 'Men Canvas Slip-On',
-        brand: 'CASUAL LUXE',
-        price: 1500,
-        discount: 12,
-        warranty: '3 months',
-        actualPrice: 1700,
-        discountedPrice: 1500,
-        inStock: 30
-    },
-    {
-        id: 138,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://example.com/men138.jpg',
-        title: 'Men Athletic Shoes',
-        brand: 'STRIDE KICKS',
-        price: 2100,
-        discount: 10,
-        warranty: '6 months',
-        actualPrice: 2333,
-        discountedPrice: 2100,
-        inStock: 20
-    },
-    {
-        id: 139,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://example.com/men139.jpg',
-        title: 'Men Dress Shoes',
-        brand: 'MENS CLASSIC',
-        price: 3500,
-        discount: 8,
-        warranty: '1 year',
-        actualPrice: 3800,
-        discountedPrice: 3500,
-        inStock: 25
-    },
-    {
-        id: 140,
-        mainCategory: 'Footwear',
-        subCategory: 'Men',
-        url: 'https://example.com/men140.jpg',
-        title: 'Men Trail Running Shoes',
-        brand: 'OUTDOOR MENSWEAR',
-        price: 3000,
-        discount: 15,
-        warranty: '1 year',
-        actualPrice: 3529,
-        discountedPrice: 3000,
-        inStock: 18
-    },
+        {
+            id: 121,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240316/49kh/65f4af1e05ac7d77bbbc553f/-473Wx593H-467171822-brown-MODEL.jpg',
+            title: 'Men Brown Leather Boots',
+            brand: 'URBAN MENSWEAR',
+            price: 3500,
+            discount: 10,
+            warranty: '1 year',
+            actualPrice: 3888,
+            discountedPrice: 3500,
+            inStock: 18,
+            material: 'Leather',
+            colors: ['Brown'],
+            rating: 4.4,
+            reviewCount: 75,
+            size: ['7', '8', '9', '10']
+        },
+        {
+            id: 122,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20241115/tIVc/6736cf7cc148fa1b30c97e3a/-473Wx593H-700301302-grey-MODEL.jpg',
+            title: 'Men Casual Sneakers',
+            brand: 'ACTIVE MAN',
+            price: 2500,
+            discount: 5,
+            warranty: '6 months',
+            actualPrice: 2631,
+            discountedPrice: 2500,
+            inStock: 35,
+            material: 'Canvas',
+            colors: ['Grey'],
+            rating: 4.3,
+            reviewCount: 120,
+            size: ['6', '7', '8', '9', '10']
+        },
+        {
+            id: 123,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240919/Jh0i/66eb55a9260f9c41e81219d4/-473Wx593H-700440895-black-MODEL.jpg',
+            title: 'Men Running Shoes',
+            brand: 'SPORTY GUYS',
+            price: 2200,
+            discount: 12,
+            warranty: '1 year',
+            actualPrice: 2500,
+            discountedPrice: 2200,
+            inStock: 40,
+            material: 'Mesh',
+            colors: ['Black'],
+            rating: 4.5,
+            reviewCount: 180,
+            size: ['7', '8', '9', '10']
+        },
+        {
+            id: 124,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20230824/EEYM/64e76545ddf7791519677d37/-473Wx593H-461573490-black-MODEL.jpg',
+            title: 'Men Formal Black Shoes',
+            brand: 'MENS CLASSICS',
+            price: 3000,
+            discount: 8,
+            warranty: '1 year',
+            actualPrice: 3260,
+            discountedPrice: 3000,
+            inStock: 25,
+            material: 'Leather',
+            colors: ['Black'],
+            rating: 4.7,
+            reviewCount: 150,
+            size: ['6', '7', '8', '9', '10']
+        },
+        {
+            id: 125,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20241022/7kq2/67178f58f9b8ef490bd36b9f/-473Wx593H-700203844-beige-MODEL.jpg',
+            title: 'Men Slip-On Loafers',
+            brand: 'CULTURE MENSWEAR',
+            price: 1800,
+            discount: 10,
+            warranty: '6 months',
+            actualPrice: 2000,
+            discountedPrice: 1800,
+            inStock: 50,
+            material: 'Synthetic',
+            colors: ['Beige'],
+            rating: 4.2,
+            reviewCount: 90,
+            size: ['6', '7', '8', '9', '10']
+        },
+        {
+            id: 126,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20250118/FYQ1/678ab2b50431850e0da620ff/-473Wx593H-701063985-beige-MODEL.jpg',
+            title: 'Men Boat Shoes',
+            brand: 'SLEEK MENSWEAR',
+            price: 2200,
+            discount: 15,
+            warranty: '6 months',
+            actualPrice: 2588,
+            discountedPrice: 2200,
+            inStock: 30,
+            material: 'Canvas',
+            colors: ['Beige'],
+            rating: 4.6,
+            reviewCount: 130,
+            size: ['7', '8', '9', '10']
+        },
+        {
+            id: 127,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240312/wEoU/65f007ec05ac7d77bbac4a40/-473Wx593H-467054444-grey-MODEL.jpg',
+            title: 'Men Hiking Boots',
+            brand: 'ADVENTURE GUYS',
+            price: 4000,
+            discount: 20,
+            warranty: '1 year',
+            actualPrice: 5000,
+            discountedPrice: 4000,
+            inStock: 15,
+            material: 'Leather',
+            colors: ['Grey'],
+            rating: 4.8,
+            reviewCount: 60,
+            size: ['8', '9', '10', '11']
+        },
+        {
+            id: 128,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240711/lmEM/669007406f60443f31eadf46/-473Wx593H-467075168-grey-MODEL.jpg',
+            title: 'Men S Flip Flops',
+            brand: 'RED tap',
+            price: 800,
+            discount: 10,
+            warranty: '6 months',
+            actualPrice: 889,
+            discountedPrice: 800,
+            inStock: 50,
+            material: 'Rubber',
+            colors: ['Grey'],
+            rating: 4.0,
+            reviewCount: 70,
+            size: ['7', '8', '9', '10']
+        },
+        {
+            id: 129,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240508/7lXO/663b8d7e16fd2c6e6af3e6c7/-473Wx593H-451019161-navy-MODEL7.jpg',
+            title: 'Men Casual Slip-On Sneakers',
+            brand: 'COMFY STYLE',
+            price: 2100,
+            discount: 7,
+            warranty: '6 months',
+            actualPrice: 2250,
+            discountedPrice: 2100,
+            inStock: 40,
+            material: 'Mesh',
+            colors: ['Navy'],
+            rating: 4.3,
+            reviewCount: 110,
+            size: ['7', '8', '9', '10']
+        },
+        {
+            id: 130,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240820/XlcU/66c471401d763220fa87051a/-473Wx593H-700301335-white-MODEL4.jpg',
+            title: 'Men White Canvas Sneakers',
+            brand: 'CLASSIC FOOTWEAR',
+            price: 1500,
+            discount: 5,
+            warranty: '3 months',
+            actualPrice: 1578,
+            discountedPrice: 1500,
+            inStock: 45,
+            material: 'Canvas',
+            colors: ['White'],
+            rating: 4.1,
+            reviewCount: 95,
+            size: ['6', '7', '8', '9', '10']
+        },
+        {
+            id: 131,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20241126/6ujT/6745d19ac148fa1b30ec745c/-473Wx593H-700806733-black-MODEL.jpg',
+            title: 'Men Black Leather Sneakers',
+            brand: 'MENSWEAR CHOICE',
+            price: 2700,
+            discount: 10,
+            warranty: '1 year',
+            actualPrice: 3000,
+            discountedPrice: 2700,
+            inStock: 20,
+            material: 'Leather',
+            colors: ['Black'],
+            rating: 4.5,
+            reviewCount: 80,
+            size: ['7', '8', '9', '10']
+        },
+        {
+            id: 132,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20241116/5SKg/6737c9b8c148fa1b30cd3a32/-473Wx593H-700749334-grey-MODEL.jpg',
+            title: 'Men Grey Sports Shoes',
+            brand: 'FITNESS KICKS',
+            price: 1800,
+            discount: 12,
+            warranty: '6 months',
+            actualPrice: 2045,
+            discountedPrice: 1800,
+            inStock: 35,
+            material: 'Mesh',
+            colors: ['Grey'],
+            rating: 4.3,
+            reviewCount: 120,
+            size: ['7', '8', '9', '10']
+        },
+        {
+            id: 133,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240809/075H/66b644a86f60443f31fccbaa/-473Wx593H-700275057-black-MODEL.jpg',
+            title: 'Men Black Sandals',
+            brand: 'SUMMER FEET',
+            price: 1000,
+            discount: 5,
+            warranty: '3 months',
+            actualPrice: 1052,
+            discountedPrice: 1000,
+            inStock: 60,
+            material: 'Rubber',
+            colors: ['Black'],
+            rating: 4.0,
+            reviewCount: 65,
+            size: ['7', '8', '9', '10']
+        },
+        {
+            id: 134,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240625/XZYc/667a1ba21d763220fa18e06e/-473Wx593H-700123170-white-MODEL.jpg',
+            title: 'Men White Running Shoes',
+            brand: 'SPORT PLUS',
+            price: 2000,
+            discount: 8,
+            warranty: '1 year',
+            actualPrice: 2174,
+            discountedPrice: 2000,
+            inStock: 25,
+            material: 'Mesh',
+            colors: ['White'],
+            rating: 4.4,
+            reviewCount: 110,
+            size: ['7', '8', '9', '10']
+        },
+        {
+            id: 135,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20230607/2tz5/647fb2ed42f9e729d72a90f1/-473Wx593H-466246333-tan-MODEL2.jpg',
+            title: 'Men Casual Loafers',
+            brand: 'COMFY SOLE',
+            price: 1500,
+            discount: 10,
+            warranty: '6 months',
+            actualPrice: 1667,
+            discountedPrice: 1500,
+            inStock: 40,
+            material: 'Synthetic',
+            colors: ['Tan'],
+            rating: 4.2,
+            reviewCount: 110,
+            size: ['7', '8', '9', '10']
+        },
+        {
+            id: 136,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240703/DpVO/66851e7c6f60443f31380810/-473Wx593H-467069260-black-MODEL.jpg',
+            title: 'Men Black Sneakers',
+            brand: 'KICK IT',
+            price: 2000,
+            discount: 5,
+            warranty: '6 months',
+            actualPrice: 2105,
+            discountedPrice: 2000,
+            inStock: 22,
+            material: 'Synthetic',
+            colors: ['Black'],
+            rating: 4.2,
+            reviewCount: 95,
+            size: ['7', '8', '9', '10']
+        },
+        {
+            id: 137,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240504/jBPP/6636576b05ac7d77bb3f553b/-473Wx593H-469618628-offwhite-MODEL4.jpg',
+            title: 'Men Canvas Slip-On',
+            brand: 'CASUAL LUXE',
+            price: 1500,
+            discount: 12,
+            warranty: '3 months',
+            actualPrice: 1700,
+            discountedPrice: 1500,
+            inStock: 30,
+            material: 'Canvas',
+            colors: ['Offwhite'],
+            rating: 4.1,
+            reviewCount: 80,
+            size: ['7', '8', '9', '10']
+        },
+        {
+            id: 138,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240829/sPIk/66d0a2986f60443f313e4ee1/-473Wx593H-700345234-white-MODEL.jpg',
+            title: 'Men Athletic Shoes',
+            brand: 'STRIDE KICKS',
+            price: 2100,
+            discount: 10,
+            warranty: '6 months',
+            actualPrice: 2333,
+            discountedPrice: 2100,
+            inStock: 20,
+            material: 'Mesh',
+            colors: ['White'],
+            rating: 4.6,
+            reviewCount: 110,
+            size: ['7', '8', '9', '10']
+        },
+        {
+            id: 139,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20241227/pWUT/676e6e31c148fa1b3062f545/-473Wx593H-700985549-white-MODEL.jpg',
+            title: 'Men Dress Shoes',
+            brand: 'MENS CLASSIC',
+            price: 3500,
+            discount: 8,
+            warranty: '1 year',
+            actualPrice: 3800,
+            discountedPrice: 3500,
+            inStock: 25,
+            material: 'Leather',
+            colors: ['White'],
+            rating: 4.5,
+            reviewCount: 95,
+            size: ['7', '8', '9', '10']
+        },
+        {
+            id: 140,
+            mainCategory: 'Footwear',
+            subCategory: 'Men',
+            url: 'https://assets.ajio.com/medias/sys_master/root/20240801/MrJw/66abadc36f60443f31e198ea/-473Wx593H-469652417-red-MODEL.jpg',
+            title: 'Men Trail Running Shoes',
+            brand: 'OUTDOOR MENSWEAR',
+            price: 3000,
+            discount: 15,
+            warranty: '1 year',
+            actualPrice: 3529,
+            discountedPrice: 3000,
+            inStock: 18,
+            material: 'Mesh',
+            colors: ['Red'],
+            rating: 4.4,
+            reviewCount: 90,
+            size: ['8', '9', '10']
+        },
 
     // Women - Subcategory (ID from 141 to 160)
     {
         id: 141,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women141.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20230925/jDd4/651179caddf7791519fa2177/-473Wx593H-466573556-black-MODEL.jpg',
         title: 'Women Black Heels',
         brand: 'FEMME LUXE',
         price: 2500,
@@ -1994,13 +2464,18 @@ let products = [
         warranty: '6 months',
         actualPrice: 2777,
         discountedPrice: 2500,
-        inStock: 22
+        inStock: 22,
+        size: ['6', '7', '8', '9'],
+        material: 'Synthetic Leather',
+        colors: ['Black'],
+        rating: 4.2,
+        reviewCount: 145
     },
     {
         id: 142,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women142.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20210514/1KbL/609d7be7f997ddb3129d9dca/-1117Wx1400H-410243964-800-MODEL.jpg',
         title: 'Women Pink Ballet Flats',
         brand: 'SOFT STEP',
         price: 1500,
@@ -2008,13 +2483,18 @@ let products = [
         warranty: '3 months',
         actualPrice: 1700,
         discountedPrice: 1500,
-        inStock: 35
+        inStock: 35,
+        size: ['5', '6', '7', '8'],
+        material: 'Fabric',
+        colors: ['Pink'],
+        rating: 4.3,
+        reviewCount: 110
     },
     {
         id: 143,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women143.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20240221/DRb9/65d4ff7605ac7d77bb6afa92/-473Wx593H-467092891-red-MODEL.jpg',
         title: 'Women Red Pumps',
         brand: 'LUXE SHOE CO.',
         price: 3000,
@@ -2022,13 +2502,18 @@ let products = [
         warranty: '1 year',
         actualPrice: 3529,
         discountedPrice: 3000,
-        inStock: 18
+        inStock: 18,
+        size: ['6', '7', '8'],
+        material: 'Patent Leather',
+        colors: ['Red'],
+        rating: 4.5,
+        reviewCount: 80
     },
     {
         id: 144,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women144.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20240902/EGzW/66d594591d763220fab73736/-473Wx593H-700313200-multi-MODEL.jpg',
         title: 'Women Casual Sneakers',
         brand: 'SPORTY WOMAN',
         price: 1800,
@@ -2036,13 +2521,18 @@ let products = [
         warranty: '6 months',
         actualPrice: 2000,
         discountedPrice: 1800,
-        inStock: 40
+        inStock: 40,
+        size: ['6', '7', '8', '9'],
+        material: 'Canvas',
+        colors: ['White/Black'],
+        rating: 4.4,
+        reviewCount: 200
     },
     {
         id: 145,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women145.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20231025/uCr5/6538ecc8afa4cf41f55efe9e/-473Wx593H-466745334-brown-MODEL.jpg',
         title: 'Women Brown Ankle Boots',
         brand: 'BOOTIE QUEENS',
         price: 2200,
@@ -2050,13 +2540,18 @@ let products = [
         warranty: '1 year',
         actualPrice: 2390,
         discountedPrice: 2200,
-        inStock: 25
+        inStock: 25,
+        size: ['6', '7', '8'],
+        material: 'Genuine Leather',
+        colors: ['Brown'],
+        rating: 4.1,
+        reviewCount: 130
     },
     {
         id: 146,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women146.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20241205/jVwb/6750da23c148fa1b301787de/-473Wx593H-700875037-silver-MODEL.jpg',
         title: 'Women High Heels',
         brand: 'GLAMOUR FOOTWEAR',
         price: 3500,
@@ -2064,13 +2559,18 @@ let products = [
         warranty: '1 year',
         actualPrice: 3684,
         discountedPrice: 3500,
-        inStock: 15
+        inStock: 15,
+        size: ['5', '6', '7', '8'],
+        material: 'Leather',
+        colors: ['Silver'],
+        rating: 4.3,
+        reviewCount: 110
     },
     {
         id: 147,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women147.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20241221/cIua/6765f0820f47f80c871553a2/-473Wx593H-700784052-tan-MODEL.jpg',
         title: 'Women Platform Sandals',
         brand: 'SANDAL GIRL',
         price: 1700,
@@ -2078,13 +2578,18 @@ let products = [
         warranty: '6 months',
         actualPrice: 1847,
         discountedPrice: 1700,
-        inStock: 30
+        inStock: 30,
+        size: ['5', '6', '7', '8'],
+        material: 'Synthetic Leather',
+        colors: ['Tan'],
+        rating: 4.0,
+        reviewCount: 75
     },
     {
         id: 148,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women148.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20241222/yMrt/676826790f47f80c871864b7/-473Wx593H-700965701-white-MODEL.jpg',
         title: 'Women White Sneakers',
         brand: 'KICK GIRLS',
         price: 1500,
@@ -2092,13 +2597,18 @@ let products = [
         warranty: '3 months',
         actualPrice: 1700,
         discountedPrice: 1500,
-        inStock: 40
+        inStock: 40,
+        size: ['6', '7', '8', '9'],
+        material: 'Fabric',
+        colors: ['White'],
+        rating: 4.5,
+        reviewCount: 160
     },
     {
         id: 149,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women149.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20230629/n28s/649d3d1aeebac147fc3f71d4/-473Wx593H-466318152-pink-MODEL.jpg',
         title: 'Women Wedge Sandals',
         brand: 'SANDAL STYLE',
         price: 2200,
@@ -2106,13 +2616,18 @@ let products = [
         warranty: '6 months',
         actualPrice: 2444,
         discountedPrice: 2200,
-        inStock: 25
+        inStock: 25,
+        size: ['5', '6', '7', '8'],
+        material: 'Synthetic',
+        colors: ['Pink'],
+        rating: 4.2,
+        reviewCount: 95
     },
     {
         id: 150,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women150.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20250108/WXtf/677e7c4b0431850e0d8b3cce/-473Wx593H-450158938-black-MODEL2.jpg',
         title: 'Women Black Flats',
         brand: 'FEMME LUXE',
         price: 1400,
@@ -2120,13 +2635,18 @@ let products = [
         warranty: '6 months',
         actualPrice: 1474,
         discountedPrice: 1400,
-        inStock: 50
+        inStock: 50,
+        size: ['5', '6', '7', '8'],
+        material: 'Synthetic Leather',
+        colors: ['Black'],
+        rating: 4.0,
+        reviewCount: 80
     },
     {
         id: 151,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women151.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20240530/e6n6/6657868605ac7d77bb8debdb/-473Wx593H-466288673-black-MODEL.jpg',
         title: 'Women Gladiator Sandals',
         brand: 'FASHION GIRL',
         price: 1800,
@@ -2134,13 +2654,18 @@ let products = [
         warranty: '1 year',
         actualPrice: 2118,
         discountedPrice: 1800,
-        inStock: 30
+        inStock: 30,
+        size: ['6', '7', '8'],
+        material: 'Leather',
+        colors: ['Black'],
+        rating: 4.4,
+        reviewCount: 150
     },
     {
         id: 152,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women152.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20240912/tWK0/66e3036c6f60443f31762cc3/-473Wx593H-469681890-lemon-MODEL.jpg',
         title: 'Women Open-Toe Heels',
         brand: 'STYLISH FOOTWEAR',
         price: 2500,
@@ -2148,13 +2673,18 @@ let products = [
         warranty: '6 months',
         actualPrice: 2700,
         discountedPrice: 2500,
-        inStock: 22
+        inStock: 22,
+        size: ['5', '6', '7', '8'],
+        material: 'Suede',
+        colors: ['Lemon'],
+        rating: 4.1,
+        reviewCount: 120
     },
     {
         id: 153,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women153.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20230530/JMyQ/6475918242f9e729d7fba0e0/-473Wx593H-466211688-black-MODEL.jpg',
         title: 'Women Black Pumps',
         brand: 'ELEGANT SOLE',
         price: 2800,
@@ -2162,13 +2692,18 @@ let products = [
         warranty: '1 year',
         actualPrice: 3182,
         discountedPrice: 2800,
-        inStock: 18
+        inStock: 18,
+        size: ['6', '7', '8'],
+        material: 'Leather',
+        colors: ['Black'],
+        rating: 4.3,
+        reviewCount: 90
     },
     {
         id: 154,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women154.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20230901/25s6/64f20144ddf7791519906f5b/-473Wx593H-450159785-pink-MODEL.jpg',
         title: 'Women Slip-On Flats',
         brand: 'COMFY GIRLS',
         price: 1200,
@@ -2176,13 +2711,18 @@ let products = [
         warranty: '6 months',
         actualPrice: 1333,
         discountedPrice: 1200,
-        inStock: 40
+        inStock: 40,
+        size: ['5', '6', '7', '8'],
+        material: 'Fabric',
+        colors: ['Pink'],
+        rating: 4.0,
+        reviewCount: 100
     },
     {
         id: 155,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women155.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20241224/gqs1/6769bd0dc148fa1b305aab86/-473Wx593H-700968461-white-MODEL.jpg',
         title: 'Women Clogs',
         brand: 'CLUB FOOTWEAR',
         price: 1600,
@@ -2190,13 +2730,18 @@ let products = [
         warranty: '6 months',
         actualPrice: 1739,
         discountedPrice: 1600,
-        inStock: 25
+        inStock: 25,
+        size: ['6', '7', '8'],
+        material: 'PVC',
+        colors: ['White'],
+        rating: 4.2,
+        reviewCount: 85
     },
     {
         id: 156,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women156.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20250106/i8iW/677af3fcc148fa1b3078d4e0/-473Wx593H-701019729-black-MODEL.jpg',
         title: 'Women Heeled Sandals',
         brand: 'HEELS OF GLAMOUR',
         price: 2300,
@@ -2204,13 +2749,18 @@ let products = [
         warranty: '1 year',
         actualPrice: 2614,
         discountedPrice: 2300,
-        inStock: 28
+        inStock: 28,
+        size: ['6', '7', '8'],
+        material: 'Leather',
+        colors: ['Black'],
+        rating: 4.3,
+        reviewCount: 115
     },
     {
         id: 157,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women157.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20230517/uTcV/64650cc542f9e729d792bd47/-473Wx593H-469307449-metallicmulti-MODEL.jpg',
         title: 'Women Metallic Sandals',
         brand: 'GLOW STYLE',
         price: 1800,
@@ -2218,13 +2768,18 @@ let products = [
         warranty: '6 months',
         actualPrice: 2000,
         discountedPrice: 1800,
-        inStock: 30
+        inStock: 30,
+        size: ['5', '6', '7', '8'],
+        material: 'Metallic Fabric',
+        colors: ['Multi'],
+        rating: 4.0,
+        reviewCount: 70
     },
     {
         id: 158,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women158.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20250123/H7um/679246d6663dbe1c5ff7f35f/-473Wx593H-701094044-brown-MODEL.jpg',
         title: 'Women Espadrilles',
         brand: 'SUMMER FEET',
         price: 1500,
@@ -2232,13 +2787,18 @@ let products = [
         warranty: '6 months',
         actualPrice: 1700,
         discountedPrice: 1500,
-        inStock: 40
+        inStock: 40,
+        size: ['6', '7', '8', '9'],
+        material: 'Jute',
+        colors: ['Brown'],
+        rating: 4.3,
+        reviewCount: 120
     },
     {
         id: 159,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women159.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20230624/qrS3/64965cf0eebac147fcf12195/-473Wx593H-465323451-black-MODEL.jpg',
         title: 'Women Booties',
         brand: 'BOOTIE GIRL',
         price: 2500,
@@ -2246,13 +2806,18 @@ let products = [
         warranty: '1 year',
         actualPrice: 2777,
         discountedPrice: 2500,
-        inStock: 20
+        inStock: 20,
+        size: ['5', '6', '7', '8'],
+        material: 'Leather',
+        colors: ['Black'],
+        rating: 4.5,
+        reviewCount: 130
     },
     {
         id: 160,
         mainCategory: 'Footwear',
         subCategory: 'Women',
-        url: 'https://example.com/women160.jpg',
+        url: 'https://assets.ajio.com/medias/sys_master/root/20241024/xIjR/671a75d7f9b8ef490bdd30a5/-473Wx593H-700572049-tan-MODEL8.jpg',
         title: 'Women Chunky Boots',
         brand: 'STYLE BOOT',
         price: 2800,
@@ -2260,112 +2825,177 @@ let products = [
         warranty: '6 months',
         actualPrice: 2947,
         discountedPrice: 2800,
-        inStock: 25
+        inStock: 25,
+        size: ['6', '7', '8'],
+        material: 'Leather',
+        colors: ['Tan'],
+        rating: 4.1,
+        reviewCount: 95
     }
-
     
 ];
 
-function displayProducts() {
-    let productList = document.getElementById('product-list');
-    productList.innerHTML = ''; // Clear previous content
 
-    products.forEach(product => {
+function displayProducts(filteredProducts) {
+    let productList = document.getElementById('product-list');
+    productList.innerHTML = ''; 
+
+    filteredProducts.forEach(product => {
         let productHTML = `
-        <div class="col-sm-2 col-md-4 col-lg-3">
-            <a href="${product.id}" style="text-decoration: none"><div class="card p-1 m-2"'>
-                <img style='border-radius:5px;' class='img-fluid' src="${product.url}" alt="${product.title}">
-                <hr>
-                <h6>${product.brand}</h6>
-                <p>${product.title}</P>
-                <p><b>₹${product.discountedPrice}</b> / <span style="text-decoration:line-through;color:#ffffff8f"> ₹${product.actualPrice}</span> <span><b> ${product.discount}% off </b></p>
-            </div></a>
-        </div>
-    `;
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                <div class="card p-1 m-2">
+                    <img style='border-radius:5px;' class='img-fluid' src="${product.url}" alt="${product.title}">
+                    <hr>
+                    <h6>${product.brand}</h6>
+                    <p>${product.title}</p>
+                    <p><b>₹${product.discountedPrice}</b> / <span style="text-decoration:line-through;color:#ffffff8f"> ₹${product.actualPrice}</span> <span><b> ${product.discount}% off </b></span></p>
+                    <!-- Full Details Button, link to newproduct.html -->
+                    <a class="btn btn-info" href="newproduct.html?id=${product.id}">Full Details</a>
+                </div>
+            </div>
+        `;
         productList.innerHTML += productHTML;
     });
 }
-window.onload = displayProducts;
+
+function filterProducts() {
+    const mainCategory = document.getElementById('main-category-filter').value;
+    const subCategory = document.getElementById('sub-category-filter').value;
+    const maxPrice = parseInt(document.getElementById('price-range').value);
+
+    const filteredProducts = products.filter(product => {
+        return (
+            (mainCategory === '' || product.mainCategory === mainCategory) &&
+            (subCategory === '' || product.subCategory === subCategory) &&
+            product.discountedPrice <= maxPrice
+        );
+    });
+
+    displayProducts(filteredProducts);
+}
+
+document.getElementById('apply-filters').addEventListener('click', filterProducts);
+
+window.onload = function () {
+    displayProducts(products);
+};
+
+document.getElementById('apply-filters').addEventListener('click', filterProducts);
+
+window.onload = function () {
+    displayProducts(products);
+}
 
 
-// let currentIndex = 0;
-// const productsPerPage = 20;
 
-// function updateSubcategories() {
-//     const categoryFilter = document.getElementById('category-filter').value;
-//     const subcategoryFilter = document.getElementById('subcategory-filter');
-    
-//   subcategoryFilter.innerHTML = '<option value="">Select Subcategory</option>';
+// function displayProducts() {
+//     let productList = document.getElementById('product-list');
+//     productList.innerHTML = ''; // Clear previous content
 
-//     if (categoryFilter) {
-//         const subcategories = getSubcategoriesForCategory(categoryFilter);
-
-//         subcategoryFilter.disabled = false;
-//         subcategories.forEach(subcategory => {
-//             let option = document.createElement('option');
-//             option.value = subcategory;
-//             option.textContent = subcategory;
-//             subcategoryFilter.appendChild(option);
-//         });
-//     } else {
-//         subcategoryFilter.disabled = true;
-//     }
+//     products.forEach(product => {
+//         let productHTML = `
+//         <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+//             <a href="${product.id}" style="text-decoration: none"><div class="card p-1 m-2"'>
+//                 <img style='border-radius:5px;' class='img-fluid' src="${product.url}" alt="${product.title}">
+//                 <hr>
+//                 <h6>${product.brand}</h6>
+//                 <p>${product.title}</P>
+//                 <p><b>₹${product.discountedPrice}</b> / <span style="text-decoration:line-through;color:#ffffff8f"> ₹${product.actualPrice}</span> <span><b> ${product.discount}% off </b></p>
+//             </div></a>
+//         </div>
+//     `;
+//         productList.innerHTML += productHTML;
+//     });
 // }
+// window.onload = displayProducts;
 
-// function getSubcategoriesForCategory(category) {
-//     const subcategories = {
-//         "Men": ["T-Shirts", "Jeans", "Jackets"],
-//         "Women": ["Sarees", "Dresses", "Tops"],
-//         "Children": ["Toys", "Clothing", "Accessories"]
+// Display products on productstore.html
+
+
+// let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+// function showProductDetails(product) {
+//     document.getElementById('modal-product-img').src = product.url;
+//     document.getElementById('modal-product-title').innerText = product.title;
+//     document.getElementById('modal-product-price').innerText = product.discountedPrice;
+//     document.getElementById('modal-product-description').innerText = `Brand: ${product.brand}\nMaterial: ${product.material}\nSize Options: ${product.size.join(', ')}`;
+
+//     // Set up "Add to Cart" button click
+//     document.getElementById('add-to-cart-btn').onclick = function() {
+//         addToCart(product);
 //     };
 
-//     return subcategories[category] || [];
+//     // Open the modal
+//     var modal = new bootstrap.Modal(document.getElementById('product-modal'));
+//     modal.show();
+// }
+
+// function addToCart(product) {
+//     cart.push(product);
+//     localStorage.setItem('cart', JSON.stringify(cart));
+//     alert('Product added to cart!');
+// }
+
+// function displayProducts(filteredProducts) {
+//     let productList = document.getElementById('product-list');
+//     productList.innerHTML = ''; // Clear previous content
+
+//     filteredProducts.forEach(product => {
+//         let productHTML = `
+//         <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+//             <div class="card p-1 m-2" onclick="showProductDetails(${JSON.stringify(product)})">
+//                 <img style='border-radius:5px;' class='img-fluid' src="${product.url}" alt="${product.title}">
+//                 <hr>
+//                 <h6>${product.brand}</h6>
+//                 <p>${product.title}</P>
+//                 <p><b>₹${product.discountedPrice}</b> / <span style="text-decoration:line-through;color:#ffffff8f"> ₹${product.actualPrice}</span> <span><b> ${product.discount}% off </b></p>
+//             </div>
+//         </div>
+//     `;
+//         productList.innerHTML += productHTML;
+//     });
 // }
 
 // function filterProducts() {
-//     const categoryFilter = document.getElementById('category-filter').value;
-//     const subcategoryFilter = document.getElementById('subcategory-filter').value;
-//     const brandFilter = document.getElementById('brand-filter').value;
+//     const mainCategory = document.getElementById('main-category-filter').value;
+//     const subCategory = document.getElementById('sub-category-filter').value;
 //     const maxPrice = parseInt(document.getElementById('price-range').value);
 
-//     let filteredProducts = products;
-
-//     if (categoryFilter) {
-//         filteredProducts = filteredProducts.filter(product => product.mainCategory.toLowerCase() === categoryFilter.toLowerCase());
-//     }
-
-//     if (subcategoryFilter) {
-//         filteredProducts = filteredProducts.filter(product => product.subCategory && product.subCategory.toLowerCase() === subcategoryFilter.toLowerCase());
-//     }
-
-//     if (brandFilter) {
-//         filteredProducts = filteredProducts.filter(product => product.brand.toLowerCase() === brandFilter.toLowerCase());
-//     }
-
-//     filteredProducts = filteredProducts.filter(product => product.discountedPrice <= maxPrice);
-
-//     currentIndex = 0;
+//     const filteredProducts = products.filter(product => {
+//         return (
+//             (mainCategory === '' || product.mainCategory === mainCategory) &&
+//             (subCategory === '' || product.subCategory === subCategory) &&
+//             product.discountedPrice <= maxPrice
+//         );
+//     });
 
 //     displayProducts(filteredProducts);
 // }
 
-// document.getElementById('load-more').addEventListener('click', () => {
-//     filterProducts(); 
-// });
+// document.getElementById('apply-filters').addEventListener('click', filterProducts);
 
-// document.getElementById('category-filter').addEventListener('change', () => {
-//     updateSubcategories(); 
-//     filterProducts();       /
-// });
+// function displayCart() {
+//     let cartItemsContainer = document.getElementById('cart-items');
+//     cartItemsContainer.innerHTML = '';
 
-// document.getElementById('subcategory-filter').addEventListener('change', filterProducts);
-// document.getElementById('brand-filter').addEventListener('change', filterProducts);
-// document.getElementById('price-range').addEventListener('input', () => {
-//     document.getElementById('price-value').textContent = '₹' + document.getElementById('price-range').value;
-//     filterProducts();
-// });
+//     let total = 0;
+//     cart.forEach(product => {
+//         let productHTML = `
+//             <div class="col-6 col-md-4 col-lg-2">
+//                 <div class="card p-1 m-2">
+//                     <img class="img-fluid" src="${product.url}" alt="${product.title}">
+//                     <hr>
+//                     <h6>${product.title}</h6>
+//                     <p><b>₹${product.discountedPrice}</b></p>
+//                 </div>
+//             </div>
+//         `;
+//         cartItemsContainer.innerHTML += productHTML;
+//         total += product.discountedPrice;
+//     });
 
-// window.onload = () => {
-//     updateSubcategories();  
-//     filterProducts();       
-// };
+//     document.getElementById('cart-total').innerText = total;
+// }
+
+// // Initialize product display with all products
+// window.onload = displayProducts(products);
